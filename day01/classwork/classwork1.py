@@ -1,4 +1,4 @@
-#data types in python - 
+#data types in python - მონაცემთა ტიპები პითონში.
 
 #string -> ბრჭყალებში მოთავსებული მონაცემები. (მაგ. "enrike", "group 71", "1234")
 
