@@ -20,8 +20,8 @@ print(oriented)
 
 lastname = "Gelashvili"
 first_letter = lastname[0]
-middle_letter = lastname[len(lastname)//2]
-last_letter = lastname[-1]
+middle_letter = lastname[-1]
+last_letter = lastname[5]
 
 print("პირველი:", first_letter)
 print("შუა:", middle_letter)
