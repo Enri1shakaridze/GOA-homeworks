@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 word1 = input("enter text: ")
 word2 = input("enter text: ")
 word3 = input("enter text: ")
 word4 = input("enter text: ")
+=======
+word1 = "Enrike"
+word2 = "Saba"
+word3 = "Temo"
+word4 = "irakli"
+>>>>>>> f5af16ccd5b6c8ae15b8da17275e050fc6c22f7c
 names = [word1, word2, word3, word4]
 print(len(names))
 
