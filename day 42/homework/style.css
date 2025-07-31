@@ -1,0 +1,20 @@
+#container {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+#container #child{
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+}
+#second-container {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    font-size: 35px;
+}
+#second-container p {
+    font-size: 150%;
+    color: antiquewhite;
+}

@@ -1,0 +1,20 @@
+#logo-img1 {
+    border: 5px solid red;
+}
+#logo-img2 {
+    border: 5px double rgb(234, 0, 255);
+}
+p {
+    text-align: center;
+}
+#paragraf1-3 {
+    color: blue;
+}
+#paragraf4-5 {
+    color: green;
+}
+h1 {
+    text-align: center;
+    border: solid 5px black;
+    color: blueviolet;
+}

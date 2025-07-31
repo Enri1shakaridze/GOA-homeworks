@@ -1,0 +1,69 @@
+<!-- Inline css - როდესაც ელემენტს ვსტილავთ html-ის დოკუმენტში, უშუალოდ გამხსნელ თეგში
+    Cascading Style Sheets - ან CSS - გამოიყენება HTML-ის ელემენტების უკეთ ვიზუალიზაციისთვის, მაგალითად: ტექსტის ფონტის, ფერის, ზომისა და დაშორებებისთვის, კომპონენტების რამდენიმე სვეტად დაყოფისთვის, მათი ანიმირებისა და სხვა დეკორატიული ფუნქციების დასამატებლად. -->
+<!-- font-size - განსაზღვრავს ტექსტური შიგთავსის მქონე ელემენტის (h1-h6, p,div...) ფონტის ზომას
+width - განსაზღვრავს ელემენტის სიგანეს
+height - განსაზღვრავს ელემენტის სიმაღლეს
+background-color - განსაზღვრავს ელემენტის ფონის ფერს
+color - განსაზღვრავს ფონტის ფერს
+Border - განსაზღვრავს ელემენტის გარშემო საზღვარს
+text-align - განსაზღვრავს კონტეინერში ტექსტის ადგილმდებარეობას. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif; color: #333;">
+
+<header style="background-color: #4CAF50; padding: 20px; text-align: center; border-radius: 50px;">
+    <h1 style="color: white;">Why I Love Football</h1>
+    <nav>
+        <ul style="padding: 0;">
+            <li style="display: inline; margin-right: 20px;"><a href="#about" style="color: white;">About</a></li>
+            <li style="display: inline; margin-right: 20px;"><a href="#players" style="color: white; ">Famous Players</a></li>
+            <li style="display: inline; margin-right: 20px;"><a href="#history" style="color: white; ">History</a></li>
+            <li style="display: inline; margin-right: 20px;"><a href="#gallery" style="color: white; ">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main style="padding: 20px;">
+    <section id="about" style="margin-bottom: 40px;">
+        <h2>About Football</h2>
+        <article style="margin-bottom: 20px;">
+            <p>Football, also known as soccer, is a sport that brings people together. It is played by two teams of eleven players, and the objective is to score goals by getting the ball into the opposing team's net.</p>
+        </article>
+        <aside style="background-color: #e7f3fe; padding: 10px; border-left: 6px solid #2196F3;">
+            <h3>Fun Fact</h3>
+            <p>Did you know that football is the most popular sport in the world?</p>
+        </aside>
+    </section>
+
+    <section id="players" style="margin-bottom: 40px;">
+        <h2>Famous Players</h2>
+        <article style="margin-bottom: 20px;">
+            <p>One of my favorite players is Cristiano Ronaldo, often referred to as CR7. His dedication and skill on the field are truly inspiring.</p>
+        </article>
+    </section>
+
+    <section id="history" style="margin-bottom: 40px;">
+        <h2>History of Football</h2>
+        <article style="margin-bottom: 20px;">
+            <p>The history of football dates back to the 19th century, and it has evolved into the global phenomenon we know today.</p>
+        </article>
+    </section>
+
+    <section id="gallery" style="margin-bottom: 40px;">
+        <h2>Gallery</h2>
+        <img src="https://imgresizer.tntsports.io/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.tntsports.io/2018/04/03/2306080-48020390-2560-1440.jpg" alt="Football Match" style="width: 50%; height: auto; margin-bottom: 20px;">
+        <img src="https://i.ytimg.com/vi/YtCcKCwpC7A/maxresdefault.jpg" alt="Cristiano Ronaldo" style="width: 50%; height: auto;">
+    </section>
+</main>
+
+<footer style="background-color: #4CAF50; padding: 10px; text-align: center; color: white; border-radius: 50px;">
+    <p>&copy; 2023 My Favorite Sport - Football</p>
+</footer>
+
+</body>
+</html>
