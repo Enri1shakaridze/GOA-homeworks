@@ -1,3 +1,6 @@
+#ფუნქციები გვეხმარება კოდის ორგანიზებაში და თავიდან გვარიდებს ერთი და იმავე კოდის ბევჯერ წერის საჭიროებას.ფუნქციების გამოყენება გვაძლევს საშუალებას, კოდი გავხადოთ უფრო მარტივი, გასაგები და ხელახლა გამოსაყენებადი.
+
+
 def name_age(name, age):
     return f"user name {name} user age {age}"
 print(name_age("enrike", 14))
@@ -17,13 +20,6 @@ print(numbers(5, 5))
 def double_values(list):
     return list * 2
 print(double_values(["enrike", "lika", "sandro"]))
-
-
-
-def values(list):
-    new_list = [i ** 2 for i in list]
-    return new_list
-print(values([10, 20, 30]))
 
 
 

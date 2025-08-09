@@ -1,0 +1,64 @@
+#pi-1 {
+    text-decoration: underline dotted red;
+}
+#pi-2 {
+    text-decoration: overline wavy rgb(79, 4, 252);
+}
+#pi-3 {
+    text-decoration: underline dashed;
+}
+#pi-4 {
+    text-decoration: underline dotted rgb(255, 4, 176);
+}
+#pi-5 {
+    text-decoration: overline dashed red;
+}
+#pi-6 {
+    text-decoration: line-through wavy rgb(47, 255, 0);
+}
+#pi-7 {
+    text-decoration: underline double rgb(0, 179, 255);
+}
+#pi-8 {
+    text-decoration: underline solid rgb(195, 255, 0);
+}
+#h1-1 {
+    text-decoration: underline;
+}
+#h2-1 {
+    text-decoration: overline;
+}
+#h3-1 {
+    text-decoration: line-through dashed blueviolet;
+}
+#em-1 {
+    text-decoration: underline wavy red;
+}
+#strong-1 {
+    text-decoration: underline double;
+}
+.container {
+    background-color: bisque;
+    width: 300px;
+}
+#container-1 {
+    font-family: sans-serif;
+    text-decoration: line-through wavy red;
+}
+#container-2 {
+    font-family: sans-serif;
+    text-decoration: underline wavy rgba(26, 0, 82, 0.315);
+}
+#container-3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 14px solid black;
+}
+#container-4 {
+    font-family: sans-serif;
+    text-decoration: overline wavy rgb(0, 255, 157);
+}
+#container-5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: overline dotted rgb(247, 255, 6);
+}
