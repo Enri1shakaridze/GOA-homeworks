@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 260px;
+    width: 40%;
+}
+thead tr:nth-child(1){
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+tbody td:nth-child(odd){
+    background-color: rgba(157, 200, 220, 0.655);
+    text-align: center;
+}
+tr, td {
+    text-align: center;
+}
