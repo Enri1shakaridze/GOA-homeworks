@@ -1,0 +1,51 @@
+.conteiner {
+    background-image: url('https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg');
+    height: 350px;
+    width: 300px;
+    margin: 0 auto;
+    transform: translateY(150px);
+    border-radius: 60px 16px 60px 16px;
+}
+form {
+    text-align: center;
+    transform: translateY(40px);
+    color: aliceblue;
+}
+body {
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(122).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    height: 25px;
+    border-radius: 14px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.893);
+    color: chartreuse;
+    transition: 1s;
+}
+input:hover{
+    box-shadow: 5px 5px 10px chartreuse;
+    border: 2px solid chartreuse;
+}
+label{
+    color: chartreuse;
+}
+form button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 16px;
+    background-color: chartreuse;
+    transition: 1s;
+}
+form a{
+    text-decoration: none;
+    color: chartreuse;
+}
+form button:hover{
+    background-color: brown;
+}
+form a:hover{
+    text-decoration: underline chartreuse;
+}
