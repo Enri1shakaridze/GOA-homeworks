@@ -1,0 +1,65 @@
+/* 
+flex-shrink -აკონტროლებს როგორი პროპორციით და რა ზომით შეიკუმშება ელემენტი
+მას default ად გაწერილი აქვს მნიშვნელობა 1 რადგან თუ მშობელი ელემენტსგან განსხვავებით შვილი ელემენტი დიდია კონტეინერში ავტომატურად მოაქცევს და მშობელ ელემენტს არ გაცდება გარეთ
+მოქმედებს მხოლოდ მაშინ როცა გადააჭარბებს შვილი ელემენტი სიდიდეში მშობელ ელემენტს თუ არ გადააჭარბებს და ადგილი მორჩება div ში flex-shrink არ იმოქმედებს ელემენტებზე,
+თუ გავუწერთ მნიშვნელობა 0-ს შვილი ელემენტი გაცდება მშობელ ელემენტს;
+
+gap - ის საშუალებით ელემენტებს შორის აჩენს ადგილს;
+
+flex-direction - განაპირობებს კონტეინერში ელემენტები ჰორიზონტალურად განლაგდებიან თუ ვერტიკალურად
+flex-direction ს აქვს 2 მნიშვნელობა ერთი row(ანუ ჰორიზონტალურად განალაგებს ელემენტებს) მეორე colum(ანუ ვერტიკალურად განალაგებს),
+ასევე შეგვიძლია გავუწეროთ row-reverce ანუ ჰორიზონტალურად ადგილებს გადაიცვლის, colum-reverce ით ვერტიკალურად ადგილებს გადაიცვლის;
+
+flex-wrap ის საშუალებით შემდეგ ხაზზე გადავა ელემენტი ან ელემენტები თუ ადგილები არ ჰყოფნით, no-wrap ის საშუალებით მაგ. ფოტოებს ბევრჯერ არ გაამეორებს თუ პატარაა, wrap-reverce ის საშუალებით მაგ. სურათები შეიცვლება ფოტოები გადავა ბოლოში და პირიქით
+*/
+body{
+    align-items: center;
+    justify-items: center;
+}
+.container{
+    display: flex;
+    height: 157px;
+    width: 180px;
+    background-color: blanchedalmond;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    transform: translateY(50px);
+}
+.box{
+    transform: translateY(50px);
+    margin: 16px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.window{
+    border: 1.5px solid rgb(0, 0, 0);
+    width: 23.4px;
+    height: 23.9px;
+}
+.door{
+    width: 55px;
+    height: 85px;
+    background-color: azure;
+    border: 2px solid black;
+    transform: translateY(69px);
+}
+.disc{
+    border: 2px solid black;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    transform: translateY(35px) translateX(10px);
+}
+.conteiner{
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(0, 0, 0);
+    transform: translateY(50px);
+}
