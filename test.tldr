@@ -138,9 +138,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 1361.600608326231,
-			"y": 1540.7175734254793,
-			"lastActivityTimestamp": 1756192149925,
+			"x": -702.0529934437917,
+			"y": 1745.3363374798532,
+			"lastActivityTimestamp": 1757666574875,
 			"meta": {}
 		},
 		{
@@ -290,6 +290,41 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -756.4266952771987,
+			"y": 1745.718943322885,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nv9XpYpw_qu0A6K8vjqvY",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1TAvG",
+			"typeName": "shape"
+		},
+		{
 			"x": 57.66011301647865,
 			"y": 902.284571658993,
 			"rotation": 0,
@@ -326,6 +361,25 @@
 			},
 			"parentId": "page:page",
 			"index": "aO3b0",
+			"typeName": "shape"
+		},
+		{
+			"x": -842.2456105675874,
+			"y": 1607.232163410256,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:me38NoICmMeG-r07cmoPL",
+			"type": "bookmark",
+			"props": {
+				"url": "https://leonardoyuu.com/wp-content/uploads/2025/06/cropped-24380497065fd3861a4288eeb2d51722.jpeg",
+				"w": 300,
+				"h": 320,
+				"assetId": "asset:-1239726070"
+			},
+			"parentId": "page:page",
+			"index": "b1U1Cu",
 			"typeName": "shape"
 		},
 		{
@@ -726,6 +780,81 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -699.9161773868923,
+			"y": 1770.201304200139,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Lx4RNIBW_oS2VDN72cfn7",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -2.14,
+								"y": -24.86,
+								"z": 0.5
+							},
+							{
+								"x": -2.14,
+								"y": -24.86,
+								"z": 0.5
+							},
+							{
+								"x": -2.14,
+								"y": -24.86,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": false,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1V9nd",
+			"typeName": "shape"
+		},
+		{
 			"x": -84.36294025642127,
 			"y": 968.3909436282709,
 			"rotation": 0,
@@ -760,9 +889,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 68.56584365008007,
-			"y": -552.0907718807028,
-			"z": 0.37897686612004067,
+			"x": 1034.0392871824693,
+			"y": -1574.0011060062247,
+			"z": 2.0591212634795952,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1394,7 +1523,9 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
+			"selectedShapeIds": [
+				"shape:me38NoICmMeG-r07cmoPL"
+			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -1836,8 +1967,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 218.5374005178693,
-			"y": 1445.2137335012856,
+			"x": 212.49862878163458,
+			"y": 1450.0447693191422,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1938,6 +2069,25 @@
 			},
 			"parentId": "page:page",
 			"index": "b0V4Ot",
+			"typeName": "shape"
+		},
+		{
+			"x": 17.489436710063273,
+			"y": 1672.8344019100953,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_r_4B1OZ6fOdUqKysmLag",
+			"type": "bookmark",
+			"props": {
+				"url": "https://leonardoyuu.com/wp-content/uploads/2025/06/cropped-24380497065fd3861a4288eeb2d51722.jpeg",
+				"w": 300,
+				"h": 320,
+				"assetId": "asset:-1239726070"
+			},
+			"parentId": "page:page",
+			"index": "b1S5CR",
 			"typeName": "shape"
 		},
 		{
@@ -3573,6 +3723,19 @@
 			"typeName": "shape"
 		},
 		{
+			"id": "asset:-1239726070",
+			"typeName": "asset",
+			"type": "bookmark",
+			"props": {
+				"src": "https://leonardoyuu.com/wp-content/uploads/2025/06/cropped-24380497065fd3861a4288eeb2d51722.jpeg",
+				"description": "",
+				"image": "https://leonardoyuu.com/wp-content/uploads/2025/06/cropped-24380497065fd3861a4288eeb2d51722.jpeg",
+				"favicon": "",
+				"title": ""
+			},
+			"meta": {}
+		},
+		{
 			"x": -84.06293718678188,
 			"y": 961.6909424659802,
 			"rotation": 0,
@@ -4033,7 +4196,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
+				"tldraw:size": "s"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -4048,8 +4211,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1062,
-				"h": 566
+				"w": 1333.5999755859375,
+				"h": 717.6000366210938
 			},
 			"insets": [
 				false,
@@ -4064,9 +4227,9 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 1.5,
+			"devicePixelRatio": 1.25,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,

@@ -1,0 +1,32 @@
+.container {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333;
+    display: flex;
+    margin: 10px;
+}
+.item {
+    background: #e74c3c;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+/* ჰორიზონტალურად (row) */
+.row {
+    flex-direction: row;
+}
+/* ვერტიკალურად (column) */
+.column {
+    flex-direction: column;
+}
+/* ჰორიზონტალურად უკუღმა (row-reverse) */
+.row-reverse {
+    flex-direction: row-reverse;
+}
+/* ვერტიკალურად უკუღმა (column-reverse) */
+.column-reverse {
+    flex-direction: column-reverse;
+}
