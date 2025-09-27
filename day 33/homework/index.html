@@ -1,0 +1,151 @@
+<!-- Tables in HTML - ცხრილები HTML-ში -->
+<!-- table - ამ თეგში იწერება ცხრილის ყველა კომპონენტი. -->
+<!-- thead - Table head. ცხრილის თავი.-->
+<!-- tr - Table row. ცხრილის რიგი.-->
+<!-- th - Table Header. ცხრილის სათავე.-->
+<!-- tbody - Table Body - ცხრილის ტანი. -->
+<!-- td - Table Data. ცრილის მონაცემი/ინფორმაცია.-->
+<!-- ცხრილის სათავე - thead -> tr -> th -->
+<!-- ცხრილის ტანი - tbody -> tr -> td -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px solid black" style="text-align: center;">
+        <thead>
+            <tr>
+                <th>css property</th>
+                <th>internet explorer</th>
+                <th>firefox</th>
+                <th>chrome</th>
+                <th>safari</th>
+                <th>opera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>border radius</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>box shadow</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>css animation</td>
+                <td>no</td>
+                <td>no</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>no</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table style="text-align: center;">
+        <thead>
+            <tr style="background-color: rgba(0, 106, 255, 0.826);">
+                <th style="border: 3px solid black;">id</th>
+                <th style="border: 3px solid black;">name</th>
+                <th style="border: 3px solid black;">email</th>
+                <th style="border: 3px solid black;">investition</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 3px solid black;background-color:aqua">231</td>
+                <td style="border: 3px solid black;background-color:aqua">albert master</td>
+                <td style="border: 3px solid black;background-color:aqua">albert.master@gmail.com</td>
+                <td style="border: 3px solid black;background-color:aqua">bonds</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;">210</td>
+                <td style="border: 3px solid black;">alfred alan</td>
+                <td style="border: 3px solid black;">aalan@gmail.com</td>
+                <td style="border: 3px solid black;">stocks</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;background-color:aqua">256</td>
+                <td style="border: 3px solid black;background-color:aqua">alison smart</td>
+                <td style="border: 3px solid black;background-color:aqua">alisonsmart@gmail.com</td>
+                <td style="border: 3px solid black;background-color:aqua">residential property</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;">211</td>
+                <td style="border: 3px solid black;">ally emery</td>
+                <td style="border: 3px solid black;">allyemery@gmail.com</td>
+                <td style="border: 3px solid black;">stocks</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;background-color:aqua">248</td>
+                <td style="border: 3px solid black;background-color:aqua">andrey phips</td>
+                <td style="border: 3px solid black;background-color:aqua">andreyphips@gmail.com</td>
+                <td style="border: 3px solid black;background-color:aqua">stocks</td>
+            </tr> 
+            <tr> 
+                <td style="border: 3px solid black;">234</td>
+                <td style="border: 3px solid black;">andy mitchel</td>
+                <td style="border: 3px solid black;">andymitchel@gmail.com</td>
+                <td style="border: 3px solid black;">stocks</td>
+            </tr>
+            <tr> 
+                <td style="border: 3px solid black;background-color:aqua">226</td>
+                <td style="border: 3px solid black;background-color:aqua">angus robinst</td>
+                <td style="border: 3px solid black;background-color:aqua">angusrobinst@gmail.com</td>
+                <td style="border: 3px solid black;background-color:aqua">bonds</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;">241</td>
+                <td style="border: 3px solid black;">ann melan</td>
+                <td style="border: 3px solid black;">annmelan@gmail.com</td>
+                <td style="border: 3px solid black;">residential property</td>
+            </tr>
+            <tr>
+                <td style="border: 3px solid black;background-color: aqua;">225</td>
+                <td style="border: 3px solid black;background-color:aqua">been bessel</td>
+                <td style="border: 3px solid black;background-color:aqua">beenbessel@gmail.com</td>
+                <td style="border: 3px solid black;background-color:aqua">stocks</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="2px solid black">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>jin</td>
+                <td>jin@gmail.com</td>
+                <td>jin.example.com</td>
+            </tr>
+            <tr>
+                <td>joe</td>
+                <td>joe@gmail.com</td>
+                <td>joe.example.com</td>
+            </tr><tr>
+                <td>ann</td>
+                <td>ann@gmail.com</td>
+                <td>ann.example.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

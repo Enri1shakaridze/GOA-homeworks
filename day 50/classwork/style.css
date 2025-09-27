@@ -1,0 +1,9 @@
+/* list-position - ლისტის პოზიცია მაგალითად outside შიგნით, inside გარეთ
+list-style-type ლისტის სტილი მაგ square კვადრატული circle მრგვალი წრე და ა.შ.
+list-style-image შეგვიძლია ფოტო ჩავსვათ ტექსტის გვერდზე*/
+ol {
+    list-style: lower-roman outside;
+}
+ul {
+    list-style: square inside;
+}

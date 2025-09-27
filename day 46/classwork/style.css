@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+#p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Oi&display=swap');
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Monsieur+La+Doulaise&family=Oi&display=swap');
+#p3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+    font-size: 18px;
+    font-weight: 200;
+}
+a:active {
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+    font-weight: 100;
+}

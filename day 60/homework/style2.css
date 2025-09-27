@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;   /* საჭიროებისას ახალ ხაზზე გადავა */
+    gap: 10px;         /* ელემენტებს შორის დაშორება */
+    width: 400px;
+    margin: 20px auto;
+}
+.box {
+    background: limegreen;
+    height: 80px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#box-1{
+    flex-grow: 1;
+}
+#box-2{
+    flex-grow: 10;
+}
+#box-3{
+    flex-grow: 1;
+}
+#box-4{
+    flex-grow: 10;
+}
+#box-5{
+    flex-grow: 1;
+}
+#box-6{
+    flex-grow: 3;
+}
+#box-7{
+    flex-grow: 1;
+}
+#box-8{
+    flex-grow: 3;
+}
+#box-9{
+    flex-grow: 10;
+}

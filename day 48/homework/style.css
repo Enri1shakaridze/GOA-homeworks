@@ -1,0 +1,23 @@
+/* border-collape ის დახმარებით  ზედმეტ ხაზებს ვაშორებთ ჩვენს ცხრილში რაც იწვევს მის გალამაზებას.*/
+/* nth-child - მუშაობს შემდეგნაირად: ჯერ ვწერთ ელემენტს რომელსაც გვინდა გავუსტილოთ სტილი შემდეგ ორწერტილს ვწერთ შემდეგ nth-child და მას გადაეცემა 2 ნაირი არგუმენტი სიტყვითი: odd, even, რიცხვითი: 1,2,3, შმდეგ ფიგურულიანი ფრჩხილი და გავსტილოთ*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    height: 120px;
+    width: 35%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    border: none;
+    border-collapse: collapse;
+}
+thead tr:nth-child(1) {
+    background-color: rgb(5, 251, 57);
+}
+tbody tr:nth-child(even){
+    color: rgb(4, 252, 57);
+    background-color: rgb(178, 182, 182);
+}

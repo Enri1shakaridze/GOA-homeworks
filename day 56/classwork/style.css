@@ -1,0 +1,19 @@
+/* 
+display: flex - ის საშუალებით მოქნილი ხდება კონტეინერში ელემენტები
+justify-content - x ღერძზე მოძრაიბს
+alight-item -  y ღერძზე მოძრაობს*/
+#container{
+    width: 650px;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+.box{
+    border: 3px solid black;
+    width: 10%;
+    height: 10%;
+    background: blueviolet;
+}

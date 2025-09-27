@@ -1,0 +1,17 @@
+#ol1 {
+    list-style: upper-roman outside;
+}
+#ol2{
+    list-style: disc inside;
+}
+#ul1{
+    list-style: lower-alpha;
+}
+.div {
+    width: 100px;
+    background-color: aqua;
+    transform: translateY(50px);
+}
+.div #ul2{
+    list-style: none;
+}

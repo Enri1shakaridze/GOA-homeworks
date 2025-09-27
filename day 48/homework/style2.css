@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    height: 120px;
+    width: 35%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    border: none;
+    border-collapse: collapse;
+}
+thead tr:nth-child(1) {
+    background-color: rgb(15, 15, 159);
+}
+tbody tr:nth-child(even){
+    color: rgb(11, 12, 11);
+    background-color: rgb(193, 194, 194);
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(199, 199, 228);
+}

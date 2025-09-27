@@ -1,0 +1,32 @@
+
+body {
+    text-align: center;
+}
+div.photo {
+    display: flex;
+}
+div.photo.intro {
+    border: 5px solid red;
+    width: 150px;
+    height: 150px;
+}
+div.photo.intro1 {
+    border: 5px double;
+    width: 200px;
+    height: 200px;
+}
+div.paragrafh1 {
+    color: blue;
+}
+div.paragrafh2 {
+    color: green;
+}
+div.heading1 {
+    border: 5px solid blue;
+    color: blueviolet;
+    text-align: center;
+}
+div.heading2 {
+    border: 5px double red;
+    text-align: center;
+}

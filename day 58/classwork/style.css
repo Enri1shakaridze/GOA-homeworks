@@ -1,0 +1,47 @@
+/* flex-grow ის საშუალებით ზომას ვანიჭებთ ჩვენს child ელემენტს რაც უფრო მეტია მით უფრო დიდია ელემენტი სხვებთან შედარებით */
+.container{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    border: 2px solid black;
+
+}
+.child {
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+#chld1{
+    flex-grow: 1;
+    background-color: brown;
+}
+#chld2{
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+#chld3{
+    flex-grow: 1;
+    background-color: rgb(0, 255, 68);
+}
+.box-container{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    border: 2px solid black;
+}
+.box{
+    background-color: rgb(0, 255, 0);
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+#cnt-box1{
+    flex-grow: 10;
+}
+#cnt-box2{
+    flex-grow: 1;
+}
+#cnt-box3{
+    flex-grow: 10;
+}

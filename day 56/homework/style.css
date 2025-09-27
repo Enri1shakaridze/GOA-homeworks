@@ -1,0 +1,57 @@
+/* Display კუთვნილებას გადაეცემა ბევრი მნიშვნელობა მაგ. block - თუ ელემენტი ინლაინია ბლოკად გადააქცევს, inline - თუ ელემენტი ბლოკია ილაინად გადააქცევს, flex - მოქნილობას ანიჭებს , და ა.შ.
+justify-content - x ღერძზე მოძრაობს
+alight-item -  y ღერძზე მოძრაობს*/
+.main-box {
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.parent{
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    justify-content: space-around;
+    align-items: center;
+}
+.child {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.div-p {
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    justify-content: end;
+    align-items: center;
+}
+.p {
+    display: inline;
+}
+.photo {
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: #f0ffff;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    width: 150px;
+}

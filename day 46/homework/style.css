@@ -1,0 +1,104 @@
+/* კუთვნილებები ტექსტური ელემენტებისთვის: */
+/* underline ტექსტს ქვემოთ უსვამს ხაზს.
+overline - ტექსტს ზემოთ უსვამს ხაზს.
+line-through - ტექსტში ხაზს ატარებს.
+none ტექსტს დეკორაციას მოაშორებს.
+dashed წყვეტილხაზოვანი
+dotted წერტილოვანი
+wavy ტალღოვანი
+solid სწორხაზოვანი
+double ორმაგი  */
+
+
+/* pseudo-selector განაპირობებს ელემენტის მდგომარეობას */
+/* pseudo-selector-ებია: */
+/* :link - აღნიშნავს იმ მდგომარეობას, როდესაც მომხმარებელი ჯერ ლინკის მისამართზე გადასული არ არის */
+/* :hover - მაუსის გადატარებისას */
+/* :visited - აღნიშნავს იმ მდგომარეობას, როდესაც მომხმარებელი უკვე გადასულია ლინკზე */
+/* :active - აღნიშნავს იმ მდგომარეობას, როდესაც მომხმარებელი ლინკს აკლიკებს, და ფერს იცვლის. */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://restylingcar.com/wp-content/uploads/2021/01/2012-mercedes-benz-cls-class-cls-63-amg-1.jpg");
+    width: 1000px;
+    height: 100px;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+nav {
+    transform: translateX(700px);
+}
+nav a:hover{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a:active {
+    font-size: 15px;
+    color: blueviolet;
+}
+nav a:visited{
+    color: yellow;
+    font-size:medium ;
+    font-weight: normal;
+}
+header p{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+}
+
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    color: #222;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column {
+    margin-left: 40px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d80000;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+    color: #d80000;
+}
+footer p {
+    text-align: center;
+    transform: translateY(10px);
+}
+.footer-column img {
+    width: 17px;
+}

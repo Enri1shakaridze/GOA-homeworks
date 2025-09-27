@@ -1,0 +1,66 @@
+/* flex-grow ის საშუალებით ზომას ვანიჭებთ ჩვენს child ელემენტს რაც უფრო მეტია მით უფრო დიდია ელემენტი სხვებთან შედარებით */
+.container{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.child{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#chld{
+    flex-grow: 1;
+}
+#chld2{
+    flex-grow: 2;
+}
+#chld3{
+    flex-grow: 3;
+}
+#chld4{
+    flex-grow: 4;
+}
+.container-box{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.box{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#child10{
+    flex-grow: 4;
+}
+#child11{
+    flex-grow: 1;
+}
+#child12{
+    flex-grow: 1;
+}#child13{
+    flex-grow: 1;
+}
+.container-ing{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.childing{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#id{
+    flex-grow: 10;
+}

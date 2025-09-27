@@ -1,0 +1,46 @@
+/* 
+Box Model-ის შემადგენელი კომპონენტები:
+content ელემენტის შიგთავსი
+padding სივრცე ელემენტის content სა და border ს შორის
+border ელემენტის ჩარჩო
+Margin სივრცე ელემენტის შორის */
+#butn1 {
+    border: 5px solid black;
+    border-radius: 16px;
+    margin: 10px;
+    color: chartreuse;
+    background-color: blueviolet;
+    padding: 3px;
+}
+#butn2 {
+    border: 5px solid black;
+    border-radius: 16px;
+    margin: 10px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(43, 150, 226);
+    padding: 5px;
+
+}#butn3 {
+    border: 5px solid black;
+    border-radius: 16px;
+    margin: 10px;
+    color: rgb(255, 136, 0);
+    background-color: blue;
+    padding: 8px;
+}
+p{
+    margin-top: 50px ;
+    text-align: center;
+}
+h1{
+    margin: 250px;
+    transform: translateY(-100px);
+}
+#photo1{
+    border: 3px double red;
+    padding: 10px;
+}
+#photo2{
+    border: 3px double red;
+    padding: 20px;
+}

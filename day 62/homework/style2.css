@@ -1,0 +1,123 @@
+body {
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 600px;
+    height: 310px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: black;
+}
+.box:nth-child(odd){
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.box:nth-child(even){
+    background-color: brown;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#child1{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child2{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child3{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child4{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child1:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child2:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child3:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child4:hover{
+    flex-grow: 5;
+    width: 400px;
+}body {
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 600px;
+    height: 310px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: black;
+}
+.box:nth-child(odd){
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.box:nth-child(even){
+    background-color: brown;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#child1{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child2{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child3{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child4{
+    text-align: center;
+    flex-grow: 1;
+    width: 200px;
+    transition: 1s;
+}
+#child1:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child2:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child3:hover{
+    flex-grow: 5;
+    width: 400px;
+}
+#child4:hover{
+    flex-grow: 5;
+    width: 400px;
+}

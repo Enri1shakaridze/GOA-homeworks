@@ -1,0 +1,40 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://t3.ftcdn.net/jpg/08/68/51/04/360_F_868510427_vsvN67LV1zSmLMyXMOFG05tRCmTAj1xL.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+input:hover{
+    background-color: rgb(136, 127, 255);
+}
+input:active{
+    font-size: 25px;
+}
+#form2{
+    display: grid;
+    max-width: 200px;
+}
+#address {
+    background-color: blueviolet;
+    color: black;
+}
+#Country {
+    background-color: blueviolet;
+    color: black;
+}
+#data {
+    background-color: blueviolet;
+    color: black;
+}
+div {
+    text-align: center;
+    margin: 0px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("https://img.lovepik.com/background/20211021/large/lovepik-blue-science-and-technology-background-image_500540546.jpg");
+    height: 389px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 100px 15px 100px 15px;
+    transform: translateY(100px);
+}
