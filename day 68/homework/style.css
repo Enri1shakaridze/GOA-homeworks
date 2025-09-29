@@ -4,3 +4,27 @@ relative - ვიყენებთ მაშინ როდესაც ელ
 static - default მნიშვნელობა გადაეცემა
 absolute - ვიყენებთ ელემენტის სამოძრავებლად მაგრამ სხვანაირი პირობით ათვლას იწყებს ეკრანის ზევიდან რაცარუნდა ელემენტები გვქონდეს მანამდე და შეიძლება ელემენტსაც გადაეფაროს
  */
+.conteiner{    
+    width: 200px;
+    background-color: blue;
+    height: 200px;
+    
+}
+.cont{
+    width: 200px;
+    background-color: blueviolet;
+    height: 200px;
+
+}
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+}    
+.c1hild{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
