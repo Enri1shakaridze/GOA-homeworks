@@ -1,0 +1,27 @@
+.cont{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 650px;
+    top: 270px;
+}
+.div{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.photo{
+    width: 100px;
+    position: absolute;
+    left: 706px;
+    top: 330px;
+}
+.photo img{
+    width: 100px;
+}

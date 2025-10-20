@@ -1,23 +1,17 @@
-def count_occurrences(numbers):
-    listn = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 9,  1, 1]
-    inp = int(input("enterr numberr: "))
-    if int(inp) == inp:
-        return listn.count(inp)
-print(count_occurrences(0))
+def name(num, nam):
+    return num.count(nam)
+print(name([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 9,  1, 1], int(input("enter number: "))))
 
 def double(listn, user):
-    n = [1, 2, 3, 4, 5, 6, 7]
-    name = input("გსურთ სიის გასუფთავება?: ")
-    if name == "no":
-        return n
+    if user == "no":
+        return listn
     elif name == "yes":
-        return n[0:0]
-print(double(1, 1))
+        return listn[0:0]
+print(double([1, 2, 3, 4, 5, 6, 7], input("გსურთ სიის გასუფთავება?: ")))
 
-# def Fruits(nam):
-#     inp = int(input("enter index listn: "))
-#     return nam.pop(inp)
-# print(Fruits['nn', 'nm', 'ss', 'mm'])
+def Fruits(listn, choise):
+    return  listn.remove(choise)
+print(Fruits['apple', 'banana', 'peach'], int(input("enter index of fruits: ")))
 
 def nam(na):
     if na < 2:
@@ -26,4 +20,4 @@ def nam(na):
         if na % i == 0:
             return False
     return True
-print(nam(4))
+print(nam(int(input("enter number: "))))

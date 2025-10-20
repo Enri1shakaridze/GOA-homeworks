@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    height: 96px;
+    background-image: linear-gradient(to right, #010125, #0000ff);
+}
+.first{
+    transform: translateX(-70px);
+    margin: 20px;
+}
+.second input{
+    width: 480px;
+    color: grey;
+    height: 38px;
+    transform: translateX(-130px);
+    margin-top: 23px;
+}
+.second button{
+    width: 140px;
+    height: 38px;
+    background-color: rgb(255, 174, 0);
+    transform: translateX(-110px);
+    border-radius: 6px;
+    font-weight: 700;
+    border: none;
+}
+.inline{
+    display: inline;
+    margin:5px;
+    color:white;
+}
+.third{
+    margin-top: 17px ;
+}
+.third img{
+    transform: translateY(12px);
+    color: aliceblue;
+}
+select{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+#fr{
+    background-color: rgb(255, 174, 0);
+    width: 90px;
+    border: none;
+    border-radius: 6px;
+    color:black;
+    font-weight: 600;
+    height: 40px;
+}
+#fn{
+    background-color: rgb(45, 17, 203);
+    width: 90px;
+    border: none;
+    border-radius: 6px;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    height: 40px;
+}
+option{
+    background-color: black;
+}
+.blac-header{
+    display: flex;
+    height: 50px;
+    background-color: #000000;
+    width: 100%;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+.blac-header a{
+    text-decoration: none;
+    margin: 14px;
+    color: whitesmoke;
+
+}
+#bu1{
+    background-color: rgba(128, 128, 128, 0.693);
+    height: 40px;
+    border:none;
+    border-radius: 7px;
+    width: 100px;
+}
+#bu2{
+    background-color: rgb(255, 174, 0);
+    height: 40px;
+    border:none;
+    border-radius: 7px;
+    width: 110px;
+    color:black;
+    font-weight: 600;
+}
+#bu2 a{
+    color: #010125;
+}
+.cont-4{
+    display: flex;
+    width: 100%;
+    height: 360px;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-top: 20px;
+}
+.cont{
+    width: 280px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px black;
+}
+h1{
+    color:blue;
+    margin-left:40px;
+    margin-top: 40px;
+}
+.cont img{
+    width: 280px;
+}
+h3{
+    color: grey;
+    margin: 10px;
+}
+strong{
+    color: #010125;
+}
+#name{
+    display: inline;
+    color:blue;
+    transform: translateX(-20px);
+}
+#namee{
+    display: inline;
+}
+#namee1{
+    color: chartreuse;
+    display: inline;
+}
+#buttt{
+    background-color: blue;
+    color: aliceblue;
+    font-family: 600;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius:14px;
+    margin-top:10px;
+    transform: translateX(35px);
+}
+
+.footer {
+    background: #1a1a1a;
+    padding: 30px;
+}
+footer{
+    margin-top:80px;
+}
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.language select {
+  background: #2b2b2b;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+  gap: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.column h3 {
+  color: #f0a500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.column a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.column a:hover {
+  color: #fff;
+}
+
+.footer-apps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.app-links img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    flex-direction: column;
+    display: flex;
+    gap:5px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #aaa;  
+}
+
+.back-top {
+    background: #f0a500;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.back-top:hover {
+    background: #ffc107;
+}

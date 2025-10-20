@@ -1,0 +1,68 @@
+/* 
+fixed ის საშუალებით შეგვიძლია გარკვეული ელემენტი ეკრანზე დარჩეს ასქროლვის დროსაც იგივე მნიშვნელობა აქვს sticy საც მაგრამ არ არევს ელემენტების წყობას ეკრანზე. */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.header img{
+    width: 100px;
+    transform: translateX(-100px);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 1px;
+    background-color: white;
+}
+.nav a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+nav{
+    margin-top: 40px;
+    transform: translateX(-30px);
+}
+.nav a:hover{
+    color: brown;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+    transform: translateY(10px);
+}
+.footer{
+    color: aliceblue;
+    list-style: none;
+    margin: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
