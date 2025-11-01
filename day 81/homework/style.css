@@ -1,0 +1,40 @@
+/* თუ ნებისმიერ ელემენტს rotate(360deg) ს გავუწერთ ელემენტი შემოტრიალდება 360 გრადუსით საათის ისრის მიმართულებით მაგრამ მიიღებს ისევ იგივე პოზიციას/ფორმას */
+body{
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    transform: rotate(-190deg);
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+}
+.conteiner:active{
+    transform: scale(1.5);
+}
+.buttonn{
+    background-color: brown;
+    margin-top: 350px;
+}
+.buttonn:active{
+    transform: scale(1.5);
+}
+.class{
+    transform: translateY(200px);
+    width: 100px;
+    border-radius: 14px;
+    background-color: chartreuse;
+    height: 50px;
+}
+.classs{
+    transform: translateY(300px);
+    width: 100px;
+    border-radius: 14px;
+    background-color: chartreuse;
+}  
+.class:hover{
+    transform: scale(0.8) translate(-160px,-20px);
+}
+.classs:active{
+    transform: scale(1.5) translate(60px,-45px);
+}

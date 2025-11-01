@@ -1,0 +1,12 @@
+/* bacground-img კუთვნილების საშუალებით საიტის უკანა ფონად ვაყენებთ ფოტოს.
+background-repeat კუთვნილების საშუალებით შეგვიძლია მივუთითოთ background ზე სურათები ბევჯერ იყოს გამეორებული თუ მხოლოდ ერთხელ. 
+bacground-position კუთვნილების საშუალებით შეგვიძლია სასურველ ადგილას დავსვათ bacground-ის ფოტო(px, %, სიტყვიერათ)
+bacground-size კუთვნილების საშუალებით ვაკონტროლებთ უკანა ფონის ფოტოს ზომას
+cover -ფოტოს ზომის მიუხედავად დაფარავს მთლიან bacground-ს  */
+
+body{
+    width: 500px;
+    height: 500px;
+    background-image: url("https://render.fineartamerica.com/images/rendered/medium/print/6/8/break/images-medium-5/awesome-solitude-bess-hamiti.jpg");
+    background-repeat: repeat-y;
+}
