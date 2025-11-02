@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a7a);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cube {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, #00c3ff, #2f05ff);
+    border-radius: 10px;
+    transition: transform 1.2s, background 2s, border-radius 1s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.cube:hover {
+    transform: translateX(50px) scale(1.2);
+    background: linear-gradient(45deg, #ffd500, #c13109);
+    border-radius: 20%;
+}

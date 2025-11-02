@@ -9,6 +9,14 @@ def excluding_vat_price(price):
 
 # 2) https://www.codewars.com/kata/64fbfe2618692c2018ebbddb/train/python
 
+def flick_switch(lst):
+    a = True
+    res = []
+    for i in lst:
+        if i == 'flick':
+            a = not a
+        res.append(a)
+    return  res
 
 
 # 3) https://www.codewars.com/kata/643af0fa9fa6c406b47c5399/train/python

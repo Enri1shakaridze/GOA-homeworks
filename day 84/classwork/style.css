@@ -1,0 +1,15 @@
+/* transition არის თვისება რის საშუალებიტაც რომელიმე გარკვეულ ელემენტს
+უცვლის სტილს ნელ ნელა, მას უნდა გავუწეროთ პირველ რიგში ელემენტის  (width, height, font-size ....) 
+და რამდენ წამში უნდა მოხვდეს ცვლილება. */
+.cont{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 3s, transform 1s, height 3s;
+}
+.cont:active{
+    width: 200px;
+    height: 150px;
+    transform: translateX(50px);
+}

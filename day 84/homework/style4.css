@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a7a);
+    overflow: hidden; 
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
+    background-color: #1e1e2f;
+    border-radius: 19px;
+    align-items: center;
+    gap: 22px;
+}
+.div-cube-1{
+    width: 70px;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.229);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+.div-cube-2{
+    width: 70px;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.229);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+.div-cube-3{
+    width: 70px;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.229);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+.div-cube-4{
+    width: 70px;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.229);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+.div-cube-5{
+    width: 70px;
+    height: 70px;
+    background-color:rgba(0, 0, 0, 0.229);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+}
+img{
+    width: 60%;
+    filter: brightness(1.2) invert(0.8);
+}
+.div-cube-1:hover{
+    box-shadow: 0 0 10px 8px blue;
+}
+.div-cube-2:hover{
+    box-shadow: 0 0 10px 8px rgb(255, 0, 119);
+}
+.div-cube-3:hover{
+    box-shadow: 0 0 10px 8px rgb(0, 140, 255);
+}
+.div-cube-4:hover{
+    box-shadow: 0 0 10px 8px rgb(255, 0, 0);
+}
+.div-cube-5:hover{
+    box-shadow: 0 0 10px 8px rgb(157, 0, 255);
+}
+.div-cube-1:hover img {
+    filter: invert(25%) sepia(100%) saturate(500%) hue-rotate(200deg);
+}
+.div-cube-2:hover img {
+    filter: invert(25%) sepia(100%) saturate(5000%) hue-rotate(320deg) brightness(1);
+}
+.div-cube-3:hover img {
+    filter: invert(55%) sepia(40%) saturate(500%) hue-rotate(180deg) brightness(1.2);
+}
+.div-cube-4:hover img {
+    filter: invert(25%) sepia(100%) saturate(5000%) hue-rotate(0deg) brightness(1);
+}
+.div-cube-5:hover img {
+    filter: invert(33%) sepia(100%) saturate(5000%) hue-rotate(265deg) brightness(1.2);
+}
