@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(135deg, #1e1e2f, #3a3a7a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.child{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+#child2{
+    transform: translate(12px, -5px);
+}
+#child3{
+    transform: translate(24px, -5px);
+}
+#child4{
+    transform: translate(36px, -5px);
+}
+#child5{
+    transform: translate(42px, -3px);
+}
+#child6{
+    transform: translate(42px, -2px);
+}
+#child7{
+    transform: translate(39px, -5px);
+}
+#child2{
+    transform: translate(12px, -5px);
+}
+#child{
+    transform: translate(12px, -2px);
+}

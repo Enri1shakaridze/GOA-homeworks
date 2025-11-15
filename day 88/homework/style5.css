@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.child{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translate(90px, -45px);
+    animation: move 2s infinite ;
+}
+@keyframes move{
+    0%{
+    transform: translate(90px, -45px);
+    }
+    25%{
+    transform: translate(160px, -205px);
+    }
+    50%{
+    transform: translate(230px, -45px);
+    }
+    75%{
+    transform: translate(90px, -45px);
+    }
+    100%{
+    transform: translate(90px, -45px);
+    }
+}

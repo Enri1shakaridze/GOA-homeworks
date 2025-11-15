@@ -1,0 +1,130 @@
+/* animation @keyframes ის საშუალებით შეგვიძლია ელემენტს სხვადასხვა მდგომარეობაში სხვადასხვა ფორმა მივანიჭოთ
+
+animation-name - ანიმაციის სახელი
+animation-duration - ხანგრძლივობას ვანიჭებთ ელემენტს
+animation-timing-function: რა სტილით შესრულდება ელემენტის სიჩქარე;
+animation-delay: აყოვნებს ელემენტის  სიჩქარეს. */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, black, rgb(50, 49, 49));
+}
+.cont-all{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+} 
+#child1{
+    transform: translate(10px, 55px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+}
+#child2{
+    transform: translate(-3px, 25px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+}
+#child3{
+    transform: translate(-5px, 2px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#child5{
+    transform: translate(5px, 2px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+#child6{
+    transform: translate(3px, 25px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+#child7{
+    transform: translate(-10px, 55px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+#child8{
+    transform: translate(129px, -5px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+#child9{
+    transform: translate(-5px, -5px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+}
+#child10{
+    transform: translate(-8px, 20px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+#child11{
+    transform: translateY(29px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+#child12{
+    transform: translate(7px, 20px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#child4{
+    transform: translateY(-8px);
+    animation-name: child1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+}
+
+@keyframes child1{
+    0%{
+        background-color: white;
+    }
+    20%{
+        background-color: rgba(255, 255, 255, 0.800);
+    }
+    40%{
+        background-color: rgba(255, 255, 255, 0.634);
+    }
+    60%{
+        background-color: rgba(255, 255, 255, 0.464);
+    }
+    80%{
+        background-color: rgba(255, 255, 255, 0.200);
+    }
+    100%{
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

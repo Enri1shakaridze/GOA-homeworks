@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a7a);
+}
+.cont{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: translate;
+    animation-iteration-count: infinite;
+    margin: 5px;
+}
+
+
+#cont1{
+    background-color: red;
+    animation-delay: 0.5s;
+    animation-name: n1;
+}
+#cont2{
+    background-color: cornflowerblue;
+    animation-delay: 1s;
+    animation-name: n1;
+}
+#cont3{
+    background-color: yellow;
+    animation-delay: 1.5s;
+    animation-name: n1;
+}
+
+@keyframes n1{
+    0%{
+        transform: translateX(0px)
+    }
+    50%{
+        transform: translateY(-15px)
+    }
+    100%{
+        transform: translateX(0px)
+    }
+}

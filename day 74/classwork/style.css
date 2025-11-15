@@ -11,7 +11,7 @@ body{
 header{
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px blackzz;
     position: sticky;
     top: 1px;
     background-color: white;

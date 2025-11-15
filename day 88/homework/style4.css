@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, black, rgb(50, 49, 49));
+}
+.parent {
+    width: 280px;
+    height: 280px;
+    border: 3px dotted rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+}
+
+.child {
+    width: 70px;
+    height: 70px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(90px);
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(135px);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(180deg) translateX(135px);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(135px);
+    }
+}
