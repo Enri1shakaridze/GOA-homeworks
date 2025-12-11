@@ -1,0 +1,23 @@
+/* justify-items – ეს ცვლის ელემენტების ჰორიზონტალურ პოზიციას თითოეულ სვეტში. მაგალითად, შეგიძლია დააწყო ელემენტები მარცხნივ, მარჯვნივ, ცენტრში ან გაჭიმო სვეტის სიგანეზე. */
+/* align-items – ეს ცვლის ელემენტების ვერტიკალურ პოზიციას თითოეულ რიგში. შეგიძლია აჩვენო ზედა კიდეზე, ქვედა კიდეზე, ცენტრში ან გაჭიმო რიგის სიმაღლეზე. */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, black, rgb(50, 49, 49));
+}
+.container{
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-auto-rows: 1fr; 
+    gap: 10px;
+}
+.child{
+    background-color: chartreuse;
+    border-radius: 10px;
+}

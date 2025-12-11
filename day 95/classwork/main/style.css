@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    width: 360px;
+    box-shadow: 0 0px 15px hsla(260, 75%, 52%, 0.141);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 14px;
+    text-align: center;
+    background: hsl(225, 100%, 98%);
+}
+.img{
+    width: 360px;
+    border-radius: 14px;
+    padding-bottom: 20px;
+}
+.musick-div{
+    display: flex;
+    gap:20px;
+    width: 300px;
+    align-items: center;
+    border-radius: 14px;
+    background-color: hsl(228, 100%, 96%);
+    justify-content: center;
+    margin-top: 20px;
+    transform: translateX(30px);
+    height: 80px;
+}
+.finall-website h3{
+    font-size: 15px;
+    color: hsl(260, 75%, 52%);
+    transform: translateX(15px);
+}
+.info-website .h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.info-website .p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: hsl(0, 0%, 14%);
+}
+.h33 .h3h3{
+    font-size: 16px;
+    transform: translateX(-20px);
+
+}
+.h33 .h3h{
+    font-size: 16px;
+    transform: translateX(-20px);
+    font-weight: 400;
+
+}
+.photo-2 img{
+    transform: translateX(-20px);
+}
+.final-1{
+    background: hsl(260, 75%, 52%);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(30px);
+    height: 45px;
+    border-radius: 14px;
+    box-shadow: 0 0 20px hsla(260, 75%, 52%, 0.518);
+    align-items: center;
+    margin-top: 15px;
+}
+.final-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.final-2{
+    background: hsla(0, 0%, 100%, 0);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(30px);
+    height: 45px;
+    border-radius: 14px;
+    align-items: center;
+    margin-top: 10px;
+}
+.final-2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
