@@ -35,7 +35,6 @@ def full_name(a, b):
 # 2) impure function
 count = 0
 def increase():
-    global count
     count += 1
     return count
 
