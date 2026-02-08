@@ -18,11 +18,13 @@ function lenn(stringgg){
 console.log(lenn('qweqweqwe'))
 
 // 4) შექმენით ფუნქცია, რომელიც მიიღებს რიცხვების მასივს და დააბრუნებს ყველა ელემენტის ჯამს.
-function summ(x = 5, y = 10){
-    return 
+function summ(){
+    let c = 0
+    for(let i = 0; i < summ.length; i++){
+        c += summ[i]
+    }
 }
-console.log(summ(1, 9))
-console.log(summ())
+console.log(summ([1, 9, 5]))
 
 // 5) შექმენით ფუნქცია, რომელიც დააბრუნებს რიცხვის კვადრატს.
 
