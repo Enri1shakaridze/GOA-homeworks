@@ -7,7 +7,7 @@
 			"com.tldraw.asset": 1,
 			"com.tldraw.camera": 1,
 			"com.tldraw.document": 2,
-			"com.tldraw.instance": 25,
+			"com.tldraw.instance": 26,
 			"com.tldraw.instance_page_state": 5,
 			"com.tldraw.page": 1,
 			"com.tldraw.instance_presence": 6,
@@ -305,6 +305,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 2186.1486375061995,
+			"y": -1001.2992224503803,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IBWmWXNfIJ8l0_z9hf6vc",
+			"type": "geo",
+			"props": {
+				"w": 1174.6841693280194,
+				"h": 617.4106817602831,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1O05yMKV",
+			"typeName": "shape"
+		},
+		{
 			"x": 57.66011301647865,
 			"y": 902.284571658993,
 			"rotation": 0,
@@ -341,6 +378,48 @@
 			},
 			"parentId": "page:page",
 			"index": "aO3btQ7",
+			"typeName": "shape"
+		},
+		{
+			"x": 6034.685618209669,
+			"y": -861.4682435453087,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2uO52HdSwuldBasQSLGZG",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 136.27500915527344,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 3.379833283647743,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "შვილი"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1b4kkC9V",
 			"typeName": "shape"
 		},
 		{
@@ -660,6 +739,134 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 6263.261486586047,
+			"y": -1312.9373033191926,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:g_6v_Ng_CukOj4FcFskXS",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 1.7658120219712146,
+					"y": 236.6043967019773
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1XBvGKjV",
+			"typeName": "shape"
+		},
+		{
+			"x": 3144.581756935788,
+			"y": -1730.5961011522718,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NUETbyQ2BZayOMhC4TAzM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 409.00970988284377,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.9349685326899477,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "მამის თვისებები"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1eZ1V5UG",
+			"typeName": "shape"
+		},
+		{
+			"x": 1699.6506491781472,
+			"y": -2266.9247449306754,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PgBbh4iZANI4C8i2-ItH7",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 866.7952741155309,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 2.0268761213699054,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "მშობელი კლასი"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1PKrEYqV",
+			"typeName": "shape"
+		},
+		{
 			"x": 1975.7010486274355,
 			"y": 1639.191993166613,
 			"rotation": 0,
@@ -775,9 +982,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 608.2963730680452,
-			"y": 390.10964836090113,
-			"z": 0.6239413243273053,
+			"x": 1079.9633886258068,
+			"y": 3822.081306525659,
+			"z": 0.13464171128353622,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1031,6 +1238,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 2220.6482098159377,
+			"y": -2764.451030811527,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:R313rRFiryTHgQwd1Xvpz",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 529,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.2003431824851036,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "multiple inheritence"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1g16zrol",
+			"typeName": "shape"
+		},
+		{
 			"x": 280.9556545102348,
 			"y": 913.4633438609522,
 			"rotation": 0,
@@ -1104,6 +1353,43 @@
 			},
 			"parentId": "page:page",
 			"index": "ad4bq",
+			"typeName": "shape"
+		},
+		{
+			"x": 5701.767750010364,
+			"y": -140.50972044723108,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Zoont60JGJzUXQ1veH3Y7",
+			"type": "geo",
+			"props": {
+				"w": 1195.381724675879,
+				"h": 515.5857223929349,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "xl",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1WDVuYaV",
 			"typeName": "shape"
 		},
 		{
@@ -1368,6 +1654,50 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 2140.7114718766748,
+			"y": -1367.4691779943773,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zdyuV5jZLf9umN4NYRlQG",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 300.68709250302527,
+					"y": 312.71449055825155
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1SSv4SyV",
+			"typeName": "shape"
+		},
+		{
 			"x": 119.54816096017822,
 			"y": 1587.6754984706508,
 			"rotation": 0,
@@ -1410,9 +1740,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ZdleGPgH_4u6trQgDsy_y"
+				"shape:R313rRFiryTHgQwd1Xvpz"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:R313rRFiryTHgQwd1Xvpz",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1565,6 +1895,48 @@
 			},
 			"parentId": "page:page",
 			"index": "b0R1QD",
+			"typeName": "shape"
+		},
+		{
+			"x": 5589.03437845111,
+			"y": -2443.772397247187,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:sWxCi8Ob6NqiW5bdtKY03",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 581.7999877929688,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.429714390291509,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "multilevel inheritence"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1ZeVaOyV",
 			"typeName": "shape"
 		},
 		{
@@ -1793,6 +2165,85 @@
 			},
 			"parentId": "page:page",
 			"index": "b0A7b6",
+			"typeName": "shape"
+		},
+		{
+			"x": 2277.0941322086874,
+			"y": -762.0998405701353,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:uCNVq5XB_sH5EhsFQzjzZ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 400.0249938964844,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.4003971997444564,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "შვილის თვისებები"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1fIJDIrV",
+			"typeName": "shape"
+		},
+		{
+			"x": 5680.579083447057,
+			"y": -1976.842075104744,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3cl_ZCxSe7uft_o2kqp-a",
+			"type": "geo",
+			"props": {
+				"w": 1234.2274337585495,
+				"h": 554.4310946942451,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "xl",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1USj0xCV",
 			"typeName": "shape"
 		},
 		{
@@ -2415,6 +2866,48 @@
 			"typeName": "binding"
 		},
 		{
+			"x": 5931.124145708001,
+			"y": -1886.185011121613,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ucki7q4cdZO1MLRl9BUKO",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 1043.5503660569739,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 5.312785273049935,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ბაბუა"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1aBw5jaV",
+			"typeName": "shape"
+		},
+		{
 			"x": 554.1580459662704,
 			"y": 1784.711219327255,
 			"rotation": 0,
@@ -2602,6 +3095,48 @@
 			},
 			"parentId": "page:page",
 			"index": "b0Z4WB",
+			"typeName": "shape"
+		},
+		{
+			"x": 3029.1226324933273,
+			"y": -2310.2075613866664,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YjcJV85J3vebed58m5B0s",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 328.76251220703125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.700724014083955,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "მშობელი კლასი"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1Q4bsojV",
 			"typeName": "shape"
 		},
 		{
@@ -3104,6 +3639,50 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 3335.441134699724,
+			"y": -1380.8330952199176,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:xQM4Zes7xEQQguAg2TmwJ",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -327.4147230376898,
+					"y": 312.7145415373557
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1TEvClBV",
+			"typeName": "shape"
+		},
+		{
 			"x": -130.31294375819436,
 			"y": 975.9659429353668,
 			"rotation": 0,
@@ -3564,6 +4143,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 5687.642062109855,
+			"y": -1012.7675131337437,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:pKkkpBEyZiSxzs77gyVTO",
+			"type": "geo",
+			"props": {
+				"w": 1241.2901429962594,
+				"h": 519.1170770117906,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "xl",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1VUEVjbG",
+			"typeName": "shape"
+		},
+		{
 			"x": 1198.5996604011339,
 			"y": 232.87042775256043,
 			"rotation": 0,
@@ -3935,7 +4551,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:size": "xl",
+				"tldraw:font": "mono"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -3973,6 +4593,7 @@
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
+			"cameraState": "idle",
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
@@ -4352,6 +4973,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 1685.8961015838738,
+			"y": -1736.5377056175034,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:SV642oBVNUDgaMfz9j_Ko",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 384.4750061035156,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.8002275163947987,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "დედის თვისებები"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1dz4sMZl",
+			"typeName": "shape"
+		},
+		{
 			"x": 521.2504345083465,
 			"y": 1675.3516928678623,
 			"rotation": 0,
@@ -4464,6 +5127,124 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 1554.0377232664778,
+			"y": -1955.4793183271279,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:k_KWiHXZvzoOSnMMhRNpb",
+			"type": "geo",
+			"props": {
+				"w": 898.0517709772384,
+				"h": 518.5179746763567,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1MLhMIDV",
+			"typeName": "shape"
+		},
+		{
+			"x": 3030.744943497693,
+			"y": -1960.8248852173442,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ytZTKLWFzOxBrmow5KR5v",
+			"type": "geo",
+			"props": {
+				"w": 908.7429047576702,
+				"h": 526.5364779489933,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1NhyIrfV",
+			"typeName": "shape"
+		},
+		{
+			"x": 6333.889656663501,
+			"y": -415.95955680679026,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:a5hi9mqWARNVzgbiH7jVM",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "xl",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -1.7655425968841882,
+					"y": 215.41599956375876
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b1YXzwfEl",
+			"typeName": "shape"
+		},
+		{
 			"x": -143.9129449502873,
 			"y": 973.2909454462126,
 			"rotation": 0,
@@ -4529,6 +5310,48 @@
 			},
 			"parentId": "page:page",
 			"index": "b0t2Sb",
+			"typeName": "shape"
+		},
+		{
+			"x": 5974.729282650369,
+			"y": 70.5883357649218,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:iJGidY1KsKICvzSPQq7EJ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 271.5375061035156,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 2.4553055736450293,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "შვილიშვილი"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1cRfyfRV",
 			"typeName": "shape"
 		},
 		{
@@ -4739,6 +5562,48 @@
 			},
 			"parentId": "page:page",
 			"index": "ac9Z5",
+			"typeName": "shape"
+		},
+		{
+			"x": 2455.4781674930364,
+			"y": -1224.9660513317872,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:TRHkFUQyIwnWNKjVckETg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 278.7250061035156,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.9127782909432243,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "შვილი კლასი"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b1RvxNFUl",
 			"typeName": "shape"
 		},
 		{
