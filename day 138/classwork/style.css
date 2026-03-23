@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: chartreuse;
+}
+button{
+    transform: translateY(-100px);
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 9px;
+}
+img{
+    border-radius: 9px;
+    transition: 1s;
+    border: 1px solid blueviolet;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(-30px);
+    color: white;
+}

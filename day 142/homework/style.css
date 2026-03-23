@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#3c3472;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont{
+    display: flex;
+    width: 600px;
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+}
+img{
+    height: 500px;
+    border-radius: 9px;
+    padding-right: 9px;
+}
+h1{
+    font-size: 25px;
+    transform: translateX(-17px);
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#p1{
+    margin-top: 10PX;
+}
+form{
+    transform:  translate(15px, -30px);
+}
+#a{
+    margin-left: 5px;
+}
+a{
+    margin-left: 24px;
+    margin-top: 2px;
+    color: blue;
+}
+#name, #mail, #Password, #com_pass{
+    height: 35px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+label{
+    color: grey;
+}
+#but{
+    margin-top: 18px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.cont1 #h1, #h2{
+    transform: translate(25px, -150px);
+    color: white;
+}
+#h2{
+    font-size: 22px;
+    margin-top: 2px;
+}
+#h11{
+    color: white;
+    transform: translate(150px, -120px);
+}
+#h3{
+    color: white;
+    transform: translate(210px, -142px);
+    font-size: 14.5px;
+}
