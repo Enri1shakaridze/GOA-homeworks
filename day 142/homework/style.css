@@ -33,8 +33,8 @@ h1{
     justify-content: space-around;
     align-items: center;
 }
-#p1{
-    margin-top: 10PX;
+#p1, #p2, #p3, #p4{
+    margin-bottom: 5PX;
 }
 form{
     transform:  translate(15px, -30px);
