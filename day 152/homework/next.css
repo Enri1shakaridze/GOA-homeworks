@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+header{
+    height: 105px;
+    width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+    height: 100px;
+    width: 320px;
+    transform: translateX(20%);
+}
+#h1{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(13, 0, 84);
+}
+.cont{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+#img2{
+    width: 400px;
+}
+.cont1{
+    text-align: center;
+    color: rgb(13, 0, 84);
+
+}
+
+
+.he{
+    color: rgb(13, 0, 84);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(-50px);
+}
+h2{
+    margin-right: 10px;
+    transform: translateY(5px);
+}
+#bl{
+    width: 350px;
+    display: block;
+    height: 39px;
+}
+.btns2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    width: 170px;
+    height: 39px;
+    border: none;
+    border-radius: 9px;
+    letter-spacing: 1.5px;
+    color: rgb(13, 0, 84);
+
+}
+.btns1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 7.5px;
+}
+.cont1 h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.cont1 p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}

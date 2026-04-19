@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    color: white;
+    font-family: "Overpass", sans-serif;
+}
+.cont{
+    background-color: hsl(213, 19%, 18%);
+    height: 380px;
+    width: 400px;
+    border-radius: 14px;
+}
+.conteiner1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: hsl(215, 15%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.conteiner3 button{
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    border: none;
+    gap: 20px;
+}
+.conteiner3{
+    display: flex;
+    gap: 20px;
+}
+.conteiner3, .conteiner2, .conteiner1, .conteiner4{
+    margin-left: 20px;
+}
+.conteiner3 button{
+    margin-top: 20px;
+    background-color:  hsl(215, 15%, 24%);
+    color: hsl(0, 100%, 100%);
+}
+.conteiner3 button:hover{
+    margin-top: 20px;
+    background-color:  hsl(0, 0%, 0%);
+}
+
+
+.conteiner2{
+    margin-top: 20px;
+}
+.conteiner4 button{
+    width: 350px;
+    background-color: hsl(25, 97%, 53%);
+    height: 40px;
+    border-radius: 14px;
+    border: none;
+    margin-top: 20px;
+    color: hsl(213, 19%, 18%);
+    font-weight: 500;
+    transition: 0.3s;
+}
+p{
+    line-height: 29px;
+    color: hsl(217, 12%, 63%);
+}
+.conteiner4 button:hover{
+    background-color:  hsl(0, 100%, 100%);
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img1{
+    transform: translateY(-30px)
+}
+#div{
+    width: 200px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: hsl(215, 15%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

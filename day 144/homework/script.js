@@ -29,10 +29,14 @@ btn.addEventListener('click', function(){
 
     // remove
     btn2.addEventListener('click', function(){
-        ul.removeChild(li);
-        // cont height - 50
-        height -= 50;
-        cont.style.height = `${height}px`; 
+        span.style.textDecoration = 'line-through';
+        span.style.color = 'red';
+        setTimeout(() => {
+            ul.removeChild(li);
+            // cont height - 50
+            height -= 50;
+            cont.style.height = `${height}px`; 
+        }, 500);
     });
 
     edit.addEventListener('click', function(){

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsla(155, 86%, 27%, 0.207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: "Karla", sans-serif;
+    flex-direction: column;
+}
+#email{
+    width: 420px;
+    height: 32px;
+    margin-bottom: 5px;
+}
+.conteiner{
+    width: 500px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 9px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    margin-bottom: 10px;
+    position: absolute;
+}
+#submit{
+    width: 420px;
+    height: 37px;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    border-radius: 6px;
+    color: white;
+    font-weight:bold;
+    margin-top: 20px;
+
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+#cx{
+    margin-top: 20px;
+}
+#name{
+    width: 207px;
+    height: 32px;
+}
+#lastname{
+    width: 207px;
+    height: 32px;
+}
+#ls{
+    margin-left: 25%;
+}
+.fatherSupport{
+    display: inline;
+}
+.fatherGeneral{
+    display: inline;
+}
+.Support p{
+    display: inline;
+}
+.General p{
+    display: inline;
+}
+.General{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 207px;
+    border: 1px solid rgb(119, 119, 119);
+    height: 34px;
+}
+.Support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 13px;
+    width: 207px;
+    border: 1px solid rgb(113, 113, 113);
+    height: 34px;
+}
+.al{
+    display: flex;
+    margin-top: 2px;
+    gap: 3px;
+}
+textarea{
+    width: 420px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+#p1, #p2, #p6, #p3, #p4{
+    color: red;
+    font-size: 12px;
+}
+#p2{
+    margin-top: -15px;
+    margin-bottom: 2px;
+}
+#p6{
+    margin-bottom: -20px;
+}
+#p3{
+    margin-top: -13px;
+}
+.Support, .General{
+    background-color: white;
+}
+#gen1{
+    background-color:#D7F6EA;
+    border: 1px solid hsl(169, 82%, 27%);
+}
+#s2{
+    background-color:#D7F6EA;
+    border: 1px solid hsl(169, 82%, 27%);
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    height: 70px;
+    width: 350px;
+    border-radius: 9px;
+    color: white;
+}

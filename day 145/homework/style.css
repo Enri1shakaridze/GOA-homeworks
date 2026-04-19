@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Parisienne", cursive;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 71, 71);
+}
+.cont{
+    position: absolute;
+    top: 50px;
+    width: 1400px;
+    min-height: 250px;
+    background: #575757;
+    border-radius: 9px;
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    text-align: center;
+}
+#inp{
+    font-family: "Parisienne", cursive;
+    height: 33px;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-left: 10px;
+    width: 200px;
+}
+#btn1{
+    font-family: "Parisienne", cursive;
+    height: 33px;
+    width: 50px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border-radius: 5px;
+    
+}
+ol{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#audio{
+    background-color: rgb(255, 0, 0);
+    transform: translate(75px, -40px);
+}
+#buttonAudio{
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    width: 200px;
+    transform: translateY(-10px);
+
+}
+#pAudio{
+    transform: translateY(-20px);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
