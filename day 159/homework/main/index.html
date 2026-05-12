@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" sizes="32x32" href="../images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+    <div class="all-cont">
+        <div class="cont1">
+            <div class="im1">
+                <img id="logo" src="../images/card-logo.svg" alt="">
+                <h2 id="h2">0000 0000 0000 0000</h2>
+                <div class="carddiv">
+                    <p id="namee">john smith</p>
+                    <p id="age">07/12</p>
+                </div>
+            </div>
+            <div class="im2">
+                <p id="p1">000</p>
+            </div>
+            
+        </div>
+        <div class="cont2">
+            <form>
+                <div class="l1">
+                    <label for="cardname" class="mar">CARDHOLDER NAME</label><br>
+                    <input type="text" id="cardname" placeholder="e.g. John Smith"><br>
+                    <p id="cardnameChild"></p>
+                </div>
+                <div class="l2">
+                    <label for="cardnum" class="mar">CARD NUMBER</label><br>
+                    <input type="text" id="cardnum" placeholder="4.g. 4455 1234 1209 4566"><br>
+                    <p id="cardnumChild"></p>
+                </div>
+                <div class="c">
+                    <div class="c1">
+                        <label for="MM">EXP, DATW (MM/YY)</label><br>
+                        <div class="c11">
+                            <input style="width: 80px;" type="text" id="MM" placeholder="MM">
+                            <input style="width: 80px;" type="text" id="YY" placeholder="YY">
+                        </div>
+                        <p id="MMYY"></p>
+                        
+                    </div>
+                    <div class="c2">
+                        <label for="CVC">CVC</label><br>
+                        <input style="width: 190px;" type="text" id="CVC" placeholder="e.g. 123">
+                        <p id="CVC1"></p>
+                    </div>
+                </div>
+                <button type="submit" id="btn">Confirm</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

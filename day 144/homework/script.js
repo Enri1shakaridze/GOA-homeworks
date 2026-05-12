@@ -4,7 +4,10 @@ let height = 250;
 btn.addEventListener('click', function(){
     let input = document.getElementById('inp').value;
     const li = document.createElement('li');
-
+    if(input === ''){
+        alert('შეავსეთ ველი!')
+        return;    
+    }
     const span = document.createElement('span');
     const ul = document.querySelector('ul');
     let edit = document.createElement('button');

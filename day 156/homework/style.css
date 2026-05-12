@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('https://salixdata.com/images/industries/public-sector/hero.jpg');
+    background-position-y: -160px;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+@media (min-width: 0px) and (max-width: 1355px){
+    body{
+        background-position-y: 0px;
+    }
+}
+.container{
+    width: 400px;
+    height: auto;
+    background-color: rgba(8, 0, 96, 0.303);
+    backdrop-filter: blur(5px);
+    border-radius: 54px 9px 54px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+input, button{
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    display: block;
+    padding-left: 5px;
+    border-radius: 9px;
+    border: none;
+}
+button{
+    margin-top: 60px;
+    background-color: #0000ff;
+    transition: 1s;
+    color: aliceblue;
+    position: relative;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+button:hover{
+    background-color: rgb(51, 255, 0);
+    cursor: pointer;
+}
+label{
+    color: red;
+    font-size: 14px;
+}
+#l5{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
