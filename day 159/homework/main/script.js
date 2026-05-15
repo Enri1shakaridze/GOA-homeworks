@@ -137,6 +137,11 @@ form.addEventListener('submit', function(e){
             namee.textContent = 'Joht Smith';
             p1.textContent = '000'
             age.textContent = '07/12'
+            CVC11.className = '';
+            YY11.className = '';
+            MM11.className = '';
+            cardnum11.className = '';
+            cardname11.className = '';
         })
     }
 })

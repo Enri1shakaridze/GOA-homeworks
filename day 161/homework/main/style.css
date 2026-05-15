@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: hsl(234, 29%, 20%);
+}
+.cont{
+    display: flex;
+    gap: 60px;
+}
+#desktop-img{
+    height: 470px;
+    margin-top: 5px;
+}
+.all-cont{
+    width: 800px;
+    height: 520px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marker1, .marker2, .marker3{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+h1{
+    margin-bottom: 17px;
+    font-size: 51px;
+    color: hsl(234, 29%, 20%);
+
+}
+p{
+    font-size: 15px;
+}
+#maxp{
+    margin-bottom: 17px;
+}
+button{
+    width: 330px;
+    display: block;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    background-color: hsl(234, 29%, 20%);
+    transition: 0.3s;
+    color: white;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0 0 15px hsl(4, 100%, 67%);
+
+}
+input{
+    width: 330px;
+    display: block;
+    height: 45px;
+    border: 0.8px solid gray;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+label{
+    font-size: 14px;
+}
+.inpform{
+    margin-top: 30px;
+}
+.cont2 img{
+    width: 115%;
+}
+.labell{
+    display: flex;
+    gap: 120px;
+    font-size: 15px;
+}
+#redd{
+    border: 0.9 px solid red;
+}
+#dspn{
+    width: 400px;
+    height: 400px;
+}
+#dispfl{
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    border-radius: 30px;
+}
+#dispfl1{
+    margin-left: 20px;
+    scale: 0.87;
+}
+#marr{
+    margin-top: 30px;
+}
+#flexx{
+    width: 800px;
+    height: 520px;
+}

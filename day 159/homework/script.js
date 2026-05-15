@@ -13,7 +13,7 @@ form.addEventListener('submit', function (e) {
             x = true
         }
     }
-    if (name === '' && surename === '' && email === '') {
+    if (name === '' || surename === '' || email === '') {
         alert('შეავსეთ ველები!');
         return;
     } else {
