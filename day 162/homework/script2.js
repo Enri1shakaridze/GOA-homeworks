@@ -4,17 +4,8 @@
 function getdatee(){
     let p = document.getElementById('paragrafh')
     let date = new Date().toLocaleTimeString();
-    let res = '';
-    for(let i = 0; i < date.length; i++){
-        if(date[i] === ' '){
-            break;
-            return;
-        }else{
-            res += date[i];
-        }
-    }
 
-    p.textContent = res;
+    p.textContent = date;
 }
 
 setInterval(() => {

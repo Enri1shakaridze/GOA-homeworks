@@ -7,8 +7,7 @@ let num = 0;
 let color = setInterval(() => {
     document.body.style.backgroundColor = `${array[num]}`
     num++;
+    if(document.body.style.backgroundColor === array[array.length + 1]){
+        clearInterval(color);
+    }
 }, 1500);
-
-setTimeout(() => {
-    clearInterval(color);
-}, 8500);
