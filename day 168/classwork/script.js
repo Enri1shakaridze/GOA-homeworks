@@ -2,7 +2,7 @@
 // https://jsonplaceholder.typicode.com/users
 
 function getAPI(API){
-    return fetch(API).then((data) => console.log(data)).catch((err) => console.error(err))
+    return fetch(API).then((data) => console.log(data.json())).catch((err) => console.error(err))
 }
 getAPI('https://jsonplaceholder.typicode.com/users')
 

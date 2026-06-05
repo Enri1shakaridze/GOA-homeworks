@@ -75,6 +75,16 @@
 
 // getAPI1('https://jsonplaceholder.typicode.com/users')
 
+
+// function getAPI1(api){
+//     return fetch(api).then((res) => res.json()).then((data) =>{
+//         for(let i = 0; i < data.length; i++){
+//             console.log('name is', data[i].name, 'email is', data[i].email )
+//         }
+//     })
+// }
+// getAPI1('https://jsonplaceholder.typicode.com/users')
+
 // 3) სცადე მონაცემების წამოღება არასწორი ლინკიდან (მაგ: https://jsonplaceholder.typicode.com/wrong-endpoint).
 // გამოიყენე .catch() მეთოდი, რათა შეცდომა არ გაეპაროს პროგრამას და კონსოლში გამოიტანო ტექსტი: "დაფიქსირდა შეცდომა მონაცემების წამოღებისას".
 
@@ -88,9 +98,7 @@
 //                 console.error("დაფიქსირდა შეცდომა მონაცემების წამოღებისას")
 //             })
 // }
-
-// getAPI2('https://jsonplaceholder.typicode.com/wrong-endpoint')
-
+// getAPI2('https://jsonplaceholder.typicod.com/wrong-endpoint')
 
 // 4) გამოიყენე Dog API (https://dog.ceo/api/breeds/image/random).
 // წამოიღე სურათის ლინკი, შექმენი HTML-ში <img> თეგი და ეს ლინკი ჩაუსვი src ატრიბუტად, რომ სურათი ეკრანზე გამოჩნდეს.
@@ -123,7 +131,6 @@
 
 // 6) https://jsonplaceholder.typicode.com/todos
 // მოცემული API-დან წამოიღე დავალებების სია და ეკრანზე (HTML-ში) გამოიტანე სია (<ul>), სადაც შესრულებული დავალებები (completed: true) იქნება მწვანე ფერის, ხოლო შეუსრულებელი - წითელი.
-
 
 // async function getPI5(API) {
 //     let response = await fetch(API);
@@ -161,3 +168,14 @@
 // }
 
 // getpromises('https://jsonplaceholder.typicode.com/users/1', 'https://jsonplaceholder.typicode.com/posts?userId=1')
+
+// function getapi1(api1, api2){
+//     return Promise.all([
+//         fetch(api1).then((res) => res.json()),
+//         fetch(api2).then((res) => res.json())
+//     ]).then((data) => {
+//         console.log(data)
+//     })
+// }
+
+// getapi1('https://jsonplaceholder.typicode.com/users/1', 'https://jsonplaceholder.typicode.com/posts?userId=1')
