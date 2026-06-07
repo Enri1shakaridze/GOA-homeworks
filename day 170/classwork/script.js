@@ -1,5 +1,5 @@
 
-async function ge() {
+async function get() {
     try{
         let res = await fetch('https://countriesnow.space/api/v0.1/countries/population/cities')
         let data = await res.json()
@@ -14,4 +14,4 @@ async function ge() {
         console.log(err)
     }
 }
-ge()
+get()
