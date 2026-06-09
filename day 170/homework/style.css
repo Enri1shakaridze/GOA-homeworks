@@ -147,3 +147,9 @@ img{
     background-color: #00272c;
     color: whitesmoke;
 }
+#bynowtrue{
+    color: green;
+    font-size: 15px;
+    text-align: center;
+    display: none;
+}
