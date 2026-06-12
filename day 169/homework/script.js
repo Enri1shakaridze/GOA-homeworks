@@ -94,24 +94,7 @@ async function screenproducts() {
 
             ln = array.length;
 
-            let rbtn = document.querySelectorAll('#rbtn');
-            rbtn.forEach((remove, index) => {
-                remove.addEventListener('click', function () {
 
-                    array.splice(index, 1);
-
-                    res1.innerHTML = '';
-                    price = 0;
-
-                    for (let i = 0; i < array.length; i++) {
-                        res1.innerHTML += array[i].dv
-                        price += array[i].price
-                    }
-                    fullprice.textContent = `ჯამში $${price}`;
-
-                    pkalata.textContent = array.length
-                });
-            });
 
             pkalata.textContent = ln;
 
@@ -159,3 +142,27 @@ bynow.addEventListener('click', function () {
         fullprice.textContent = `ჯამში $${price}`;
     }
 })
+setInterval(() => {
+    if(array.length !== 0){
+        let rbtn = document.querySelectorAll('#rbtn');
+        rbtn.forEach((remove, index) => {
+            if (remove.className !== 'tr') {
+                remove.className = 'tr';
+
+                remove.addEventListener('click', function () {
+                    array.splice(index, 1);
+                    res1.innerHTML = '';
+                    price = 0;
+
+                    for (let i = 0; i < array.length; i++) {
+                        res1.innerHTML += array[i].dv;
+                        price += array[i].price;
+                    }
+
+                    fullprice.textContent = `ჯამში $${price}`;
+                    pkalata.textContent = array.length;
+                });
+            }
+        });
+    }
+}, 100);
