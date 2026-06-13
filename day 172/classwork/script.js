@@ -20,4 +20,5 @@ async function getUsers() {
         })
     }
 }
+
 getUsers()

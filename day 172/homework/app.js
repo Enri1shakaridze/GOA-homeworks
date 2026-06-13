@@ -1,21 +1,8 @@
+// import { getProducts, getUsers } from "./utils.js";
 
-function sub (a, b) {
-    console.log(a - b)
-}
+// getUsers();
+// getProducts();
 
-function div (a, b) {
-    console.log(a / b)
-}
-function mul (a, b) {
-    console.log(a * b)
-}
-
-function add (a, b) {
-    console.log(a + b)
-}
-
-export default div
-
-// export {sub} 
-
-// module.exports = {mul, add}
+// const {getUsers, getProducts} = require('./utils.js')
+// console.log(getUsers)
+// console.log(getProducts)
