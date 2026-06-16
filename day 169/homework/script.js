@@ -140,6 +140,8 @@ bynow.addEventListener('click', function () {
             bynowtrue.style.display = 'none'
         }, 800);
         fullprice.textContent = `ჯამში $${price}`;
+        pkalata.textContent = array.length;
+
     }
 })
 setInterval(() => {
