@@ -7,6 +7,7 @@ body{
     background-color: #00272c;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
 }
 #div{
     display: flex;
@@ -32,6 +33,7 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    animation: mproduct 2s;
 }
 #pbtn, #rbtn{
     width: 180px;
@@ -51,6 +53,10 @@ img{
     margin-top: 10px;
     background-color: #123342;
     color: whitesmoke;
+    transition: 0.3s;
+}
+#div2 button:hover{
+    background-color: #006290;
 }
 #pp{
     color: green;
@@ -60,7 +66,6 @@ img{
     background-size: contain;
     height: 40px;
     width: 60px;
-    flex-shrink: 1;
     background-repeat: no-repeat;
     border-radius: 14px;
     position: fixed;
@@ -69,6 +74,7 @@ img{
     box-shadow: 0px 0px 1px 5px rgb(26, 5, 80);
     align-items: end;
     transition: 0.3s;
+    margin-top: 30px;
 }
 .kalata:hover{
     box-shadow:0px 0px 1px 5px rgb(26, 50, 80) ;
@@ -105,9 +111,7 @@ img{
     }
 }
 
-.res::-webkit-scrollbar{
-    display: none;
-}
+
 
 
 .res1{
@@ -147,9 +151,147 @@ img{
     background-color: #00272c;
     color: whitesmoke;
 }
+.res2 button:hover{
+    background-color: #005e6a;
+}
+
 #bynowtrue{
     color: green;
     font-size: 15px;
     text-align: center;
     display: none;
+}
+.headerimg1 img{
+    width: 70px;
+    height: 70px;
+}
+header{
+    height: 120px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid white;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: headerr 1s;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+header nav{
+    display: flex;
+    gap: 50px;
+}
+.navigation{
+    margin-right: 140px;
+}
+.headerimg1{
+    margin-left: 100px;
+}
+header nav a:hover{
+    color: red;
+}
+@keyframes headerr {
+    0%{
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes mproduct {
+    0%{
+        opacity: 0;
+    }
+}
+.container{
+    width: 500px;
+    min-height: 550px;
+    height: auto;
+    background-color: #006290;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+}
+.container h1{
+    letter-spacing: 20%;
+    font-size: 40px;
+    text-align: center;
+}
+.maininfo form input{
+    width: 350px;
+    display: block;
+    height: 50px;
+    border: 1.5px solid white;
+    margin-top: 30px;
+    border-radius: 9px;
+    padding-left: 10px;
+    letter-spacing: 1.5px;
+    background-color: rgba(240, 255, 255, 0);
+    color: white;
+}
+textarea{
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 100px;
+    border: 1.5px solid white;
+    border-radius: 9px;
+    background-color: rgba(245, 222, 179, 0);
+    margin-top: 30px;
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 16px;
+    min-height: 100px;
+}
+textarea:focus{
+    outline: none;
+    border: 1.5px solid red;
+
+}
+.maininfo form input:focus{
+    outline: none;
+    border: 1.5px solid red;
+
+}
+.maininfo form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main button{
+    width: 350px;
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    letter-spacing: 1.5px;
+    border-radius: 9px;
+    background-color: #00272c;
+    color: white;
+    transition: 0.3s;
+}
+.main button:hover{
+    background-color: #e1ff51;
+    color: black;
+}
+.perror{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
 }

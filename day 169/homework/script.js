@@ -70,8 +70,12 @@ async function screenproducts() {
 
             for (let i = 0; i < array.length; i++) {
                 if (array[i].id === product.id) {
-                    alert('ესეთი პროდუცქი უკვე არსებობს კალათაში!');
-                    return
+                    let prinf = prompt('ესეთი პროდუქტი უკვე დამატებულია გსურთ კიდევ ერთის დამატება?');
+                    if(prinf === 'კი' || prinf === 'yes'){
+                        alert('წარმატებით დაემატა!');
+                    }else{
+                        return;
+                    }
                 }
             }
 
