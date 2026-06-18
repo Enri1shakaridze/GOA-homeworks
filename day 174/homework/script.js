@@ -11,7 +11,7 @@ let ln = 0;
 let array = [];
 let a;
 
-async function getproducts(API) {
+async function getproducts() {
     try {
         let response = await fetch('https://fakestoreapi.com/products');
         let data = await response.json();
