@@ -27,109 +27,110 @@ async function getproducts() {
 
 async function screenproducts() {
     let resdata = await getproducts();
-    
-    newpr.addEventListener('click', function(){
-    let title = prompt('შეიყვანეთ პროდუქტის დასახელება')
-    let productprice = Number(prompt('შეიყვანეთ პროდუქტის ფასი'))
-    let image = prompt('შეიყვანეთ პროდუქტის სურათის ლინკი')
-    for(let i = 0; i < arr2.length; i++){
-        if(arr2[i].title === title && arr2[i].price === productprice && arr2[i].image === image){
-            alert('ესეთი პროდუქტი უკვე არსებობს!');
-            return
+
+    newpr.addEventListener('click', function () {
+        let title = prompt('შეიყვანეთ პროდუქტის დასახელება')
+        let productprice = Number(prompt('შეიყვანეთ პროდუქტის ფასი'))
+        let image = prompt('შეიყვანეთ პროდუქტის სურათის ლინკი')
+        for (let i = 0; i < arr2.length; i++) {
+            if (arr2[i].title === title && arr2[i].price === productprice && arr2[i].image === image) {
+                alert('ესეთი პროდუქტი უკვე არსებობს!');
+                return
+            }
         }
-    }
-    if(title.length !== 0 && price !== null && image.length !== 0){
-        let dt = {}
-        dt.id = idd
-        dt.title = title
-        dt.price = productprice
-        dt.image = image
-        resdata.push(dt)
-        arr2.push(dt)
-        console.log(dt)
-        let divall = document.createElement('div');
-        let div = document.createElement('div');
-        let div1 = document.createElement('div');
-        let div2 = document.createElement('div');
+        if (title.length !== 0 && price !== null && image.length !== 0) {
+            let dt = {}
+            dt.id = idd
+            dt.title = title
+            dt.price = productprice
+            dt.image = image
+            resdata.push(dt)
+            arr2.push(dt)
+            console.log(dt)
+            let divall = document.createElement('div');
+            let div = document.createElement('div');
+            let div1 = document.createElement('div');
+            let div2 = document.createElement('div');
 
-        // products info
-        let ph2 = document.createElement('h2');
-        ph2.textContent = title;
-        ph2.id = 'ph2';
+            // products info
+            let ph2 = document.createElement('h2');
+            ph2.textContent = title;
+            ph2.id = 'ph2';
 
-        let pimg = document.createElement('img');
-        pimg.src = image;
+            let pimg = document.createElement('img');
+            pimg.src = image;
 
-        let pp = document.createElement('p');
-        pp.textContent = `price is: $${productprice}`;
-        pp.id = 'pp';
+            let pp = document.createElement('p');
+            pp.textContent = `price is: $${productprice}`;
+            pp.id = 'pp';
 
-        let pbtn = document.createElement('button');
-        pbtn.id = 'pbtn';
-        pbtn.textContent = 'კალათაში დამატება';
+            let pbtn = document.createElement('button');
+            pbtn.id = 'pbtn';
+            pbtn.textContent = 'კალათაში დამატება';
 
-        // product append div
-        div1.appendChild(ph2);
-        div2.appendChild(pimg);
-        div2.appendChild(pp);
-        div2.appendChild(pbtn);
+            // product append div
+            div1.appendChild(ph2);
+            div2.appendChild(pimg);
+            div2.appendChild(pp);
+            div2.appendChild(pbtn);
 
-        div.appendChild(div1);
-        div.appendChild(div2);
+            div.appendChild(div1);
+            div.appendChild(div2);
 
-        divall.appendChild(div);
-        products.appendChild(divall);
+            divall.appendChild(div);
+            products.appendChild(divall);
 
-        div.id = "div";
-        div1.id = "div1";
-        div2.id = "div2";
-        divall.id = 'divall';
+            div.id = "div";
+            div1.id = "div1";
+            div2.id = "div2";
+            divall.id = 'divall';
 
-        pbtn.addEventListener('click', function () {
-            // console.log(array[0])
-            // console.log(divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>'))
-            for (let i = 0; i < array.length; i++) {
-                if (array[i].dv === divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>')) {
-                    let prinf = prompt('ესეთი პროდუქტი უკვე დამატებულია გსურთ კიდევ ერთის დამატება?');
-                    if(prinf === 'კი' || prinf === 'yes'){
-                        alert('წარმატებით დაემატა!');
-                    }else{
-                        console.log(array[i].dv.innerHTML)
-                        console.log(div.innerHTML)
-                        return;
+            pbtn.addEventListener('click', function () {
+                // console.log(array[0])
+                // console.log(divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>'))
+                for (let i = 0; i < array.length; i++) {
+                    if (array[i].dv === divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>')) {
+                        let prinf = prompt('ესეთი პროდუქტი უკვე დამატებულია გსურთ კიდევ ერთის დამატება?');
+                        if (prinf === 'კი' || prinf === 'yes') {
+                            alert('წარმატებით დაემატა!');
+                        } else {
+                            console.log(array[i].dv.innerHTML)
+                            console.log(div.innerHTML)
+                            return;
+                        }
                     }
                 }
-            }
-            array.push({
-                id: idd,
-                dv: divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>'),
-                price: productprice
+                array.push({
+                    id: idd,
+                    dv: divall.innerHTML.replace('<button id="pbtn">კალათაში დამატება</button>', '<button id="rbtn">კალათიდან წაშლა</button>'),
+                    price: productprice
+                });
+
+                // console.log(array[0].dv);
+
+                res1.innerHTML = '';
+                price = 0
+
+                for (let i = 0; i < array.length; i++) {
+                    res1.innerHTML += array[i].dv;
+                    price += array[i].price;
+                }
+                fullprice.textContent = `ჯამში $${price}`;
+
+                ln = array.length;
+
+
+
+                pkalata.textContent = ln;
+
+                if (ln >= 4) {
+                    res1.style.marginTop = '120px';
+                    res1.style.marginBottom = '20px';
+                }
+                idd++
             });
-
-            // console.log(array[0].dv);
-
-            res1.innerHTML = '';
-            price = 0
-
-            for (let i = 0; i < array.length; i++) {
-                res1.innerHTML += array[i].dv;
-                price += array[i].price;
-            }
-            fullprice.textContent = `ჯამში $${price}`;
-
-            ln = array.length;
-
-
-
-            pkalata.textContent = ln;
-
-            if (ln >= 4) {
-                res1.style.marginTop = '120px';
-                res1.style.marginBottom = '20px';
-            }
-            idd++
-        });
-    }})
+        }
+    })
     console.log(resdata)
 
 
@@ -179,9 +180,9 @@ async function screenproducts() {
             for (let i = 0; i < array.length; i++) {
                 if (array[i].id === product.id) {
                     let prinf = prompt('ესეთი პროდუქტი უკვე დამატებულია გსურთ კიდევ ერთის დამატება?');
-                    if(prinf === 'კი' || prinf === 'yes'){
+                    if (prinf === 'კი' || prinf === 'yes') {
                         alert('წარმატებით დაემატა!');
-                    }else{
+                    } else {
                         return;
                     }
                 }
@@ -256,8 +257,9 @@ bynow.addEventListener('click', function () {
 
     }
 })
-setInterval(() => {
-    if(array.length !== 0){
+
+window.addEventListener('click', function () {
+    if (array.length !== 0) {
         let rbtn = document.querySelectorAll('#rbtn');
         rbtn.forEach((remove, index) => {
             if (remove.className !== 'tr') {
@@ -279,4 +281,4 @@ setInterval(() => {
             }
         });
     }
-}, 100);
+})
