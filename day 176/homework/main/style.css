@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 86%);
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 600px;
+    min-height: 350px;
+    height: auto;
+    border-radius: 20px 20px 100px 20px;
+    background-color: hsl(0, 100%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+form{
+    display: flex;
+    gap: 20px;
+
+}
+#DD, #MM, #YYYY{
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+}
+#DD input, #MM input, #YYYY input{
+    height: 50px;
+    width: 120px;
+    border-radius: 4px;
+    padding-left: 12px;
+    border: 1px solid hsl(0, 10%, 94%);
+    font-weight: 501;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: hsl(0, 0%, 0%);
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.labels{
+    font-size: 11px;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+    font-weight: 701;
+    margin-left: 2px;
+    color: hsl(0, 0%, 0%);
+}
+.redlabels{
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 2px;
+    font-style: italic;
+    display: none;
+}
+#DD input:focus, #MM input:focus, #YYYY input:focus{
+    outline: 1px solid hsl(259, 100%, 65%);
+}
+.contsiner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerw{
+    width: 100%;
+    height: 1px;
+    border: 0.8px solid hsl(0, 10%, 94%);
+}
+button{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    background-color: hsl(0, 0%, 0%);
+}
+button img{
+    scale: 0.7;
+}
+.container3-1, .container3-2, .container3-3{
+    display: flex;
+}
+.container3-1 h1, .container3-2 h1, .container3-3 h1{
+    font-size: 75px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+}
+.blue{
+    color: hsl(259, 100%, 65%);
+}
