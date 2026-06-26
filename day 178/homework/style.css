@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(13, 31%, 94%);
+}
+.container2{
+    width: 350px;
+    min-height: 300px;
+    height: auto;
+    background-color: hsl(20, 50%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.container2 h1{
+    color: hsl(14, 86%, 42%);
+    font-size: 25px;
+    margin-left: -150px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.container1{
+    width: 1000px;
+    min-height: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+    margin-right: -100px;
+}
+.container2 img{
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container2 p{
+    color: hsl(7, 20%, 60%);
+}
+img{
+    width: 250px;
+    border-radius: 9px;
+}
+.childcont button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#imagee{
+    width: 20px;
+}
+.childcont{
+    display: flex;
+    flex-direction: column;
+}
+.childcont button{
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    border: none;
+    text-align: center;
+    background-color: hsl(20, 50%, 98%);
+    border: 1.2px solid hsl(14, 86%, 42%);
+    margin-left: 50px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+#h1d{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+}
+#h55{
+    color: hsl(14, 86%, 42%);
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+#h54{
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.cartres{
+    width: 300px;
+    height: auto;
+}
+.childcont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid hsl(7, 20%, 60%);
+    padding-bottom: 20px;
+
+}
+.childcont2 img{
+    width: 20px;
+    border: 0.8px solid hsl(7, 20%, 60%);
+    padding: 3px;
+}
+.childcont22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.cnt img{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cnt button{
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 1.1px;
+    background-color: hsl(14, 86%, 42%);
+    color: hsl(13, 31%, 94%);
+    margin-top: 10px;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: hsl(13, 31%, 94%);
+}
+.cnt p{
+    margin-top: 20px;
+}
+.cnt p:nth-child(2){
+    color: black;
+    font-size: 24px;
+    transform: translate(250px, -45px);
+}
+h6{
+    color: hsl(14, 25%, 72%);
+    font-size: 13px;
+}
+h6 strong{
+    color:hsl(14, 25%, 62%);
+}
