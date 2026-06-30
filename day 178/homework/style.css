@@ -8,6 +8,7 @@
 body{
     font-family: "Red Hat Text", sans-serif;
     background-color: hsl(13, 31%, 94%);
+    overflow-x: hidden;
 }
 .container2{
     width: 350px;

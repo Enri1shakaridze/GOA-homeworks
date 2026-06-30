@@ -6,6 +6,9 @@ let cartres = document.querySelector('.cartres');
 
 let nn2 = document.getElementById('nn1')
 let nn1 = document.getElementById('nn2')
+let her = document.getElementById('her')
+let cnt = document.createElement('div');
+
 
 let cart = []
 let x = 0
@@ -59,6 +62,7 @@ rendercart()
 function cartt(){
     cartres.innerHTML = '';
     let pr = 0;
+    her.textContent = `Your Cart (${cart.length})`
     cart.forEach(obj => {
         pr += Number(obj.price)
         if(cart.length !== 0){
@@ -68,7 +72,6 @@ function cartt(){
             nn2.style.display = 'flex'
             nn1.style.display = 'flex'
         }
-        console.log(cart)
         let price = obj.obj.price.toFixed(2)
 
         cartres.innerHTML += `
@@ -84,7 +87,6 @@ function cartt(){
         `
     })
     if(cart.length !== 0){
-        let cnt = document.createElement('div');
         cnt.innerHTML = ''
         cnt.innerHTML = `
         <div>
@@ -100,6 +102,17 @@ function cartt(){
             </div>
         </div>`
         cartres.innerHTML += cnt.innerHTML
+        let buynow = document.getElementById('buynow')
+
+        if(buynow){
+            buynow.addEventListener('click', function(){
+                alert('წარმატებით შეიძინეთ!')
+                cart = [];
+                cartres.innerHTML = ``
+                nn2.style.display = 'flex'
+                nn1.style.display = 'flex'
+                pr = 0
+            })}
     }else{
         cnt.innerHTML = ``
         cartres.innerHTML += cnt.innerHTML
@@ -108,13 +121,13 @@ function cartt(){
     btnimg.forEach(btn => {
         btn.addEventListener('click', function(){
             
+            her.textContent = `Your Cart (${cart.length})`
             cart = cart.filter(x => x.obj.category !== btn.className)
             if(cart.length !== 0){
                 nn2.style.display = 'none'
                 nn1.style.display = 'none'
-                let cnt = document.createElement('div');
                 pr = 0
-                
+
             }else{
                 nn2.style.display = 'flex'
                 nn1.style.display = 'flex'
