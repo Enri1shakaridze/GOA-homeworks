@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./image/title.png" type="image/x-icon">
+    <title>CINEVERSE</title>
+</head>
+<body>
+    <header>
+        <div class="allheader">
+            <div class="headername">
+                <h1>CINEVERSE</h1>
+            </div>
+            <div class="navigations">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Movies</a>
+                    <a href="">Watchlist</a>
+                    <a href="">My Account</a>
+                </nav>
+            </div>
+            <div class="seearch">
+                <div class="searchimginput">
+                    <input type="text" placeholder="seearch movies...">
+                    <img width="15px" src="./image/search.webp" alt="">
+                </div>
+                <div class="profile">
+                    <img id="notification" width="80px" src="./image/notifications.png" alt="">
+                    <img id="profileimg" width="30px" src="./image/noprofile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article id="article1">
+                <div class="nextprew">
+                    <div class="prew">
+                        <img width="20px" src="./image/nextprew.png" alt="">
+                    </div>
+                    <div class="next">
+                        <img width="20px" src="./image/nextprew.png" alt="">
+                    </div>
+                </div>
+                <div class="toprateddiv">
+                    <div class="infomovie">
+                        <div class="inlinerate">
+                            <img width="24" height="24"src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='%23ff2e63' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2l2.9 6.3 6.9.6-5.2 4.5 1.6 6.7L12 16.9 5.8 20l1.6-6.7L2.2 8.9l6.9-.6L12 2z'/%3E%3C/svg%3E">
+                            <p>TOP RATED</p>
+                        </div>
+                        <h1 id="title">Watch at Home June 9th</h1>
+                        <h2 id="author">Author: </h2>
+                        <div class="infofilmyear">
+                            <p id="date">2003</p>
+                            <p class="wertili">·</p>
+                            <p>3h 21m</p>
+                            <p class="wertili">·</p>
+                            <p id="quality">HD 1080p</p>
+                            <p class="wertili">·</p>
+                            <p id="rate">⭐ 8.8</p>
+                        </div>
+                        <div class="heaightinfop">
+                            <p id="infop">The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.</p>
+                        </div>
+                        <div class="addwatchlist">
+                            <a id="watch" href=""><img width="30px" src="./image/white-play-icon-png-6.png" alt="">Watch Now</a>
+                            <button id="addwatchlistbtn"><p>✕</p> Add to Watchlist</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="article2">
+                <div class="filterall">
+                    <div class="filter1">
+                        <div class="filtertext">
+                            <img width="30px" height="40px" src="./image/filter.png" alt="">
+                            <h4>Explore Movies</h4>
+                        </div>
+                        <div class="filter">
+                            <select name="" id="" class="selectgenres">
+                                <option class="optiongenres" value="All Genres">All Genres</option>
+                                <option class="optiongenres" value="Action">Action</option>
+                                <option class="optiongenres" value="Adventure">Adventure</option>
+                                <option class="optiongenres" value="Animation">Animation</option>
+                                <option class="optiongenres" value="Comedy">Comedy</option>
+                                <option class="optiongenres" value="Crime">Crime</option>
+                                <option class="optiongenres" value="Documentary">Documentary</option>
+                                <option class="optiongenres" value="Drama">Drama</option>
+                                <option class="optiongenres" value="Family">Family</option>
+                                <option class="optiongenres" value="Fantasy">Fantasy</option>
+                                <option class="optiongenres" value="History">History</option>
+                                <option class="optiongenres" value="Horror">Horror</option>
+                                <option class="optiongenres" value="Music">Music</option>
+                                <option class="optiongenres" value="Mystery">Mystery</option>
+                                <option class="optiongenres" value="Romance">Romance</option>
+                                <option class="optiongenres" value="Science Fiction">Science Fiction</option>
+                                <option class="optiongenres" value="TV Movie">TV Movie</option>
+                                <option class="optiongenres" value="Thriller">Thriller</option>
+                                <option class="optiongenres" value="War">War</option>
+                                <option class="optiongenres" value="Western">Western</option>
+                            </select> 
+                            <select name="" id="" class="selectsortby">
+                                <option class="optionsortby" value="All">All Movie</option>
+                                <option class="optionsortby" value="Popular">Sort by: Popular</option>
+                                <option class="optionsortby" value="newest">Sort by: newest to oldest</option>
+                                <option class="optionsortby" value="oldest">Sort by: oldest to newest</option>
+                                <option class="optionsortby" value="high">Sort by: high rating</option>
+                                <option class="optionsortby" value="Low">Sort by: Low rating</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clearfilter">
+                        <img width="25px" src="./image/reset.png" alt="">
+                        <p>Clear Filter</p>
+                    </div>
+                </div>
+            </article>
+            <article id="article3">
+                <div class="allmovies">
+
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/filtermovie.js"></script>
+</body>
+</html>

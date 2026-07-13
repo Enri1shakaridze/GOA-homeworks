@@ -7,8 +7,8 @@ const fs = require('fs/promises')
 // async function main() {
 //     await fs.writeFile('data.json', JSON.stringify('Enrike'))
 //     let read = await fs.readFile('data.json', 'utf-8')
-//     let res = JSON.parse(read)
-//     console.log(res)
+//     let res = JSON.parse(read).split(' ')
+//     console.log(res.length)
 // }
 
 // main()
