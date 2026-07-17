@@ -1,0 +1,354 @@
+:root {
+    --bg: #0b0f1a;
+    --bg2: #111827;
+    --nobg: rgba(0, 0, 0, 0);
+    --card: #1f2937;
+    --card2: #374151;
+
+    --main: #ff2e63;
+    --main2: #ff4d7d;
+
+    --text: #ffffff;
+    --text2: #9ca3af;
+    --text3: #6b7280;
+
+    --star: #facc15;
+    --green: #22c55e;
+    --red: #ef4444;
+
+    --border: #2d3748;
+    --border2: #4b5563;
+
+    --hover: rgba(255, 255, 255, 0.05);
+    --shadow: rgba(0, 0, 0, 0.5);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* header */
+
+
+header{
+    height: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    animation: header 1s;
+}
+
+.allheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--main);
+    padding: 10px;
+    border-bottom: 3px solid var(--nobg);
+    text-align: center;
+    transition: 1s;
+    margin-top: 10px;
+}
+nav a:hover{
+    border-bottom: 3px solid var(--main2);
+
+}
+.headername h1{
+    color: var(--main);
+}
+.seearch{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profileimg{
+    border-radius: 50px;
+}
+.seearch input{
+    width: 200px;
+    height: 35px;
+    background-color: var(--nobg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+.seearch input:focus{
+    outline: none;
+    border: 1px solid var(--main);
+}
+.searchimginput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchimginput img{
+    margin-left: -33px;
+}
+.spanl{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    gap: 7px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.spanl span{
+    width: 30px;
+    height: 2.5px;
+    background-color: var(--main);
+    border-radius: 14px;
+}
+#cx{
+    display: none;
+}
+/* main */
+
+
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.formforaccount{
+    width: 400px;
+    height: 470px;
+    background-color: var(--bg2);
+    border-radius: 20px;
+    color: var(--text);
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form p{
+    text-align: center;
+}
+.formforaccount p{
+    text-align: center;
+    color: var(--text2);
+}
+.formforaccount p a{
+    color: var(--main);
+    text-decoration: none;
+    cursor: pointer;
+}
+.formforaccount label strong{
+    color: var(--main);
+    font-size: 13px;
+}
+form input{
+    height: 45px;
+    border-radius: 14px;
+    padding-left: 10px;
+    background: var(--nobg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.formforaccount label{
+    font-size: 13px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+form button{
+    height: 45px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    background-color: var(--main);
+    color: var(--text);
+    border: none;
+    border-radius: 20px;
+}
+#cx2{
+    display: inline;
+}
+
+#flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#flex input{
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid var(--main);
+}
+
+
+#firstp{
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* media */
+
+@media (max-width: 1180px){
+    .navigations{
+        display: none;
+    }
+    .spanl{
+        display: flex;
+    }
+}
+@media (max-width: 730px){
+    header{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .filter1{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 830px){
+    .infomovie{
+        margin-left: 90px;
+        flex-wrap: wrap;
+        max-width: 420px;
+    }
+    .addwatchlist{
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 940px){
+    .filterall{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter1{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 530px){
+    .infomovie{
+        scale: 0.9;
+        margin-left: 60px;
+    }
+    .addwatchlist{
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+    .infofilmyear{
+        flex-wrap: wrap;
+        height: 100px;
+        max-width: 180px;
+        gap: 10px;
+    }
+    .next{
+        position: relative;
+        z-index: 110;
+    }
+    .infomovie{
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 460px){
+    #infop{
+        max-width: 340px
+    }
+    .addwatchlist{
+        margin-top: 150px;
+        flex-wrap: wrap;
+    }
+    #title{
+        max-width: 350px;
+    }
+    .infomovie{
+        width: 260px;
+    }
+    
+}
+
+@media (max-width: 670px){
+    .allheader{
+        flex-direction: column;
+    }
+    header{
+        height: 140px;
+    }
+}
+
+@media (max-width: 420px) {
+    .seearch{
+        gap: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .seearch input{
+        width: 150px;
+    }
+}
+/* keyframe */
+
+
+
+
+
+
+
+
+
+@keyframes header {
+    0%{
+        opacity: 0;
+    }
+}

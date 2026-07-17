@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/myaccount.css">
+    <link rel="shortcut icon" href="../image/title.png" type="image/x-icon">
+    <title>CINEVERSE</title>
+</head>
+<body>
+    <header>
+        <div class="allheader">
+            <div class="headername">
+                <h1>CINEVERSE</h1>
+            </div>
+            <input type="checkbox" name="" id="cx">
+            <div class="navigations">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Movies</a>
+                    <a href="">Watchlist</a>
+                    <a href="">My Account</a>
+                </nav>
+            </div>
+            <div class="seearch">
+                <div class="searchimginput">
+                    <input id="search" type="text" placeholder="seearch movies...">
+                    <img width="15px" src="../image/search.webp" alt="">
+                </div>
+                <div class="profile">
+                    <img id="notification" width="80px" src="../image/notifications.png" alt="">
+                    <img id="profileimg" width="30px" src="../image/noprofile.png" alt="">
+                    <label for="cx" class="spanl">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="account">
+            <div class="formforaccount">
+                <h1 id="firstp">Sign in</h1>
+                <form>
+                    <label for="name" id="name2">Username</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <label for="email" id="email2">User Emaill</label>
+                    <input type="text" id="email" placeholder="you@example.com">
+                    <label for="password" id="password2">Password</label>
+                    <input type="text" id="password" placeholder="Enter Password">
+                    <label for="repeatpassword" id="repeatpassword2">Repeat Password</label>
+                    <input type="text" id="repeatpassword" placeholder="Repeat Password">
+                    <div id="flex">
+                        <input type="checkbox" id="cx2">
+                        <label for="cx2">I agree to the <strong>Terms and Conditions.</strong> </label>
+                    </div>
+                    <button id="btn" type="submit">Registration</button>
+                    <p>Have you Account? <a href="./login.html">Log In</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="../js/registration.js"></script>
+</body>
+</html>
