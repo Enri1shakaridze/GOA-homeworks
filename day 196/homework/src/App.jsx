@@ -54,7 +54,7 @@ function App() {
 
     {/* N 4 */}
         <div>
-          <RatingStars rating={1} />
+          <RatingStars rating={4} />
         </div>
     </>
   )
