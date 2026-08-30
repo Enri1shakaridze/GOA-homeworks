@@ -1,41 +1,47 @@
+import { useState } from "react"
+
+
 function FAQ(){
+    const [ans, setAns] = useState([])
     let array = [
         {
+            id: 1,
             question: 'Why is the moon sometimes out during the day',
             ans: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae architecto natus, sapiente deleniti debitis placeat facilis',
         },
         {
+            id: 2,
             question: 'why is sky blue?',
             ans: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae architecto natus, sapiente deleniti debitis placeat facilis',
         },
         {
+            id: 3,
             question: 'how much does the earth weight?',
             ans: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae architecto natus, sapiente deleniti debitis placeat facilis',
         },
         {
+            id: 4,
             question: 'will we ever discover aliens?',
             ans: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae architecto natus, sapiente deleniti debitis placeat facilis',
         }
     ]
-    function heandler(e){
-        console.log(e.target.parentElement.nextElementSibling)
-        if(e.target.parentElement.nextElementSibling.id === 'ps2'){
-            e.target.parentElement.nextElementSibling.id = 'ps1'
-            e.target.textContent = '+'
+    function heandler(id){
+        let btnId = id
+        btnId = Number(btnId)
+        if(ans.includes(btnId)){
+            setAns(ans.filter((x) => x !== btnId))
         }else{
-
-            e.target.parentElement.nextElementSibling.id = 'ps2'
-            e.target.textContent = '-'
+            setAns((item) => [...item, btnId])
         }
     }
 
     let res = array.map((el, index) => 
-        <div id="box">
-            <div className={"flexx"} key={'question_' + index}>
+        <div id="box" key={'question_' + index}>
+            <div className={"flexx"} >
                 <p>{el.question}</p>
-                <button onClick={heandler}>+</button>
+                <button onClick={() => heandler(el.id)}>{ans.includes(el.id) ? '-' : '+'}</button>
             </div>
-            <p className="ps">{el.ans}</p>
+            <p className="ps">{ans.includes(el.id) ? el.ans : ''}</p>
         </div>
     )
 

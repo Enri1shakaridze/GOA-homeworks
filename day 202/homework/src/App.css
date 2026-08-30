@@ -1,10 +1,5 @@
-.ps{
-  display: none;
-  transition: 0.3s;
 
-}
-#ps2{
-  display: flex;
+.ps{
   margin-left: 20px;
   transition: 0.3s;
 }
@@ -19,7 +14,9 @@
   cursor: pointer;
 }
 
-
+.flexx p{
+  transition: 0.3s;
+}
 .flexx:hover{
   border-bottom: 1px solid aqua;
 }
