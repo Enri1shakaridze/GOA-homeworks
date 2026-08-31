@@ -17,6 +17,10 @@
   }
 }
 
+ul{
+  list-style: none;
+}
+
 .hero {
   position: relative;
 
