@@ -1,33 +1,45 @@
 
 # 1) https://www.codewars.com/kata/59f08f89a5e129c543000069/train/python
-# ?
-def dup(arry):
+def add(num1, num2): 
+    num1 = str(num1)[::-1]
+    num2 = str(num2)[::-1]
     res = []
-    res2 = ''
-    for i in arry:
-        res2 = ''
-        i+='1'
-        for j in range(len(i)-1):
-            if i[j] != i[j+1]:
-                res2+=i[j]
-        res.append(res2)
-    return res
-# 2) https://www.codewars.com/kata/58161c5ac7e37d17fc00002f/train/python
-# ?
-def find_arr(arr_a, arr_b, rng, wanted):
-    res2 = set(arr_a) & set(arr_b)
-    res3 = [item for item in res2 if rng[0] < item < rng[1]+1]
+
+    for i in range(max(len(num1), len(num2))):
+        if i >= len(num1):
+            r = int(num2[i])
+        elif i >= len(num2):
+            r = int(num1[i])
+        else:
+            r = int(num1[i]) + int(num2[i])
+        res.append(str(r))
+    res = res[::-1]
+    return int(''.join(res))
     
-    res = []
+# 2) https://www.codewars.com/kata/58161c5ac7e37d17fc00002f/train/python
+def find_arr(arr_a, arr_b, rng, wanted):
+    seteda = set(arr_a)
+    setedb = set(arr_b)
+
+    resa = list(filter(lambda x: arr_a.count(x) >= 2, seteda))
+    resb = list(filter(lambda x: arr_b.count(x) >= 2, setedb))
+    
+    res2 = set(resa) & set(resb)
+    res2 = list(res2)
+    
+    resrng = []
+    for i in range(rng[0], rng[1]+1):
+        if i in res2:
+            resrng.append(i)
+
     if wanted == 'odd':
-        for i in res3:
-            if i % 2 != 0:
-                res.append(i)
+        finalRes = list(filter(lambda x: x % 2 != 0, resrng))
+    elif wanted == 'even':
+        finalRes = list(filter(lambda x: x % 2 == 0, resrng))
     else:
-        for i in res3:
-            if i % 2 == 0:
-                res.append(i)
-    return res
+        0
+    return sorted(finalRes)
+        
 # 3) https://www.codewars.com/kata/5effa412233ac3002a9e471d/train/python
 
 def add(num1, num2): 
