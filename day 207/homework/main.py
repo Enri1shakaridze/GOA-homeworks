@@ -39,7 +39,47 @@ def find_arr(arr_a, arr_b, rng, wanted):
     else:
         0
     return sorted(finalRes)
+
+# 
+def find_arr(arr_a, arr_b, rng, wanted):
+    seteda = set(arr_a)
+    setedb = set(arr_b)
+
+    resa = list(filter(lambda x: arr_a.count(x) >= 2 and rng[0] <= x <= rng[1] and (x % 2 == 0 if wanted == 'even' else x % 2 != 0), seteda))
+    resb = list(filter(lambda x: arr_b.count(x) >= 2 and rng[0] <= x <= rng[1] and (x % 2 == 0 if wanted == 'even' else x % 2 != 0), setedb))
+    
+    res2 = set(resa) & set(resb)
+    res2 = list(res2)
+    
+
+
+    return sorted(res2)
+
+# 
+def find_arr(arr_a, arr_b, rng, wanted):
+    seteda = set(arr_a)
+    setedb = set(arr_b)
+
+    resa = list(filter(lambda x: arr_a.count(x) >= 2 and rng[0] <= x <= rng[1], seteda))
+    resb = list(filter(lambda x: arr_b.count(x) >= 2 and rng[0] <= x <= rng[1], setedb))
+    
+    res2 = set(resa) & set(resb)
+    res2 = list(res2)
+    
+    resrng = []
+    for i in range(rng[0], rng[1]+1):
+        if i in res2:
+            resrng.append(i)
+
+    if wanted == 'odd':
+        finalRes = list(filter(lambda x: x % 2 != 0, resrng))
+    elif wanted == 'even':
+        finalRes = list(filter(lambda x: x % 2 == 0, resrng))
+    else:
+        0
+    return sorted(finalRes)
         
+
 # 3) https://www.codewars.com/kata/5effa412233ac3002a9e471d/train/python
 
 def add(num1, num2): 
