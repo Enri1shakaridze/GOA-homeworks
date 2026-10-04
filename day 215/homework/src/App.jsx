@@ -17,6 +17,7 @@ import { Product } from './COMPONENTS/Products'
 // გამოიყენეთ async/await სინტაქსი.
 // დაამატეთ Clean-up ფუნქცია, რომელიც გაუქმებულ/ძველ მოთხოვნებს აარიდებს თავს, თუ მომხმარებელი სწრაფად შეცვლის ID-ს.
 import { Ids } from './COMPONENTS/Ids'
+import Products2 from './COMPONENTS/Prod'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,7 +31,9 @@ function App() {
     {/* <Product/> */}
 
     {/* n3 */}
-    <Ids/>
+    {/* <Ids/> */}
+
+    {/* <Products2/> */}
     </>
   )
 }
