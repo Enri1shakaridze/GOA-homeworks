@@ -25,7 +25,7 @@ function App() {
   return (
     <>
     {/* n1 */}
-    {/* <Dogs/> */}
+    <Dogs/>
 
     {/* n2 */}
     {/* <Product/> */}
