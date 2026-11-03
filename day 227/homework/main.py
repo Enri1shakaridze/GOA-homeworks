@@ -2,17 +2,17 @@
 # ანუ მონაცემთა დაფარვა, მაგალითად შეიძლება გამოგვადგეს მომხმარებლის პაროლის დასაფარად და ა.შ.
 # 2) რას ეწოდება Level 1 data hiding? (მაგალითებიც მოიყვანეთ)
 # ანუ ესეროვთქვათ 50% იანი დაფარვა კლასის გარეთაც შეგვიძლია მისი გამოძახება და კლასშიც
-class Map:
-    def __init__(self, country, city, IP_location):
+class Mapss:
+    def __init__(self, country, city, location):
         self.country = country
         self.city = city
-        self._IP_location = IP_location
+        self._location = location
     def second(self):
-        return self._IP_location
+        return self._location
 
-map1 = Map('Georgia', 'batumi', 6010)
+map1 = Mapss('Georgia', 'tbilisi', 800000000000000000000)
 
-print(map1._IP_location)
+print(map1._location)
 print(map1.second())
 # 3) შექმენით UserInfo კლასი. მიანიჭეთ ატრიბუტები: name, surname, age, address.
 # პირველი დონის მონაცემთა დაფარვით - დაფარეთ age და address. შემდეგ გამოიძახეთ იგი ორივე ნასწავლი გზით.
