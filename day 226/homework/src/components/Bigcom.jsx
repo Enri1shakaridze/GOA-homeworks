@@ -17,8 +17,8 @@ export function Bigcomp(){
                     </div>
                     <div className="navigation">
                         <nav>
-                            <li onClick={heandler}>მთავარი</li>
-                            <li>ჩვენს შესახებ</li>
+                            <li>მთავარი</li>
+                            <li onClick={heandler}>ჩვენს შესახებ</li>
                             <li>მანქანები</li>
                             <li>კონტაქტი</li>
                             <li>რეგისტრაცია</li>
