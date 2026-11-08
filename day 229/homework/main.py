@@ -20,7 +20,7 @@ print(car1._Car__vincode)
 # პირველი დონის მონაცემთა დაფარვით - დაფარეთ age და address. შემდეგ გამოიძახეთ იგი ორივე ნასწავლი გზით.
 class uSerInfo:
     def __init__(self, name, surename, age, adress):
-        self.name - name 
+        self.name = name 
         self.surename = surename
         self._age = age 
         self._adress = adress
