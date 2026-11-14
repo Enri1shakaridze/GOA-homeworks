@@ -57,11 +57,11 @@ class Product:
         self.name = name
         self.price = price
     @classmethod
-    def set_discount_rate(self, newr):
-        self.disc = newr
+    def set_discount_rate(cls, newr):
+        cls.disc = newr
     
-    def getdiscpr(self):
-        return self.price * (1 - self.disc / 100)
+    def getdiscpr(cls):
+        return cls.price * (1 - cls.disc / 100)
     
 product2 = Product("Phone", 1000)
 Product.set_discount_rate(20)
