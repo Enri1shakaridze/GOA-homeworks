@@ -32,6 +32,7 @@
 .divs{
   border-radius: 14px;
   border: 1px solid white;
+  margin-top: 15px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
