@@ -33,6 +33,29 @@
   border-radius: 14px;
   border: 1px solid white;
   margin-top: 15px;
+  background-image: url('./assets/card.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 70px;
+  padding-left: 170px;
+
+}
+.h44{
+  transform: translateY(30px);
+  letter-spacing: 1px;
+}
+.diva{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 @media (prefers-color-scheme: dark) {
   :root {

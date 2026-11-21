@@ -18,9 +18,8 @@ function App() {
     console.log(x)
     return (
       <div className='divs' key={y}>
-        <h4>name {x.name}</h4>
-        <h4>username {x.username}</h4>
-        <h4>email {x.email}</h4>
+        <h4>{x.name}</h4>
+        <h4 className='h44'>{x.phone}</h4>
         <h4>website {x.website}</h4>
       </div>
     )
@@ -29,7 +28,7 @@ function App() {
   return (
     <>
     <h2>{st?'':'იტვირთება...'}</h2>
-    <div>
+    <div className='diva'>
       {res}
     </div>
     </>
