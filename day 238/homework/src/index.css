@@ -29,6 +29,35 @@
     font-size: 16px;
   }
 }
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+  align-items: start;
+  gap: 20px;
+}
+.mainc{
+  display: flex;
+  justify-content: center;
+}
+button{
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 14px;
+  letter-spacing: 1px;
+  color: black;
+  background-color: grey;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: 10px;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
